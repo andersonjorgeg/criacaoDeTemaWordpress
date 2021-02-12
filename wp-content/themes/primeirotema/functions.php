@@ -1,8 +1,10 @@
 <?php
-//? include
-require get_template_directory().'/include/ap_footer_functions.php';
+function ap_theme_styles(){
+    wp_enqueue_style('theme_css', get_template_directory_uri().'/assets/css/theme.css'); //? serve para adicionar css
 
-//? hooks
-add_action('shutdown', 'ap_fim');
+    wp_enqueue_script('theme_js', get_template_directory_uri().'/assets/js/script.js', array('jquery'), '', true); //? serve para adicionar js
+}
+
+add_action('wp_enqueue_scripts', 'ap_theme_styles');
 
 ?>
