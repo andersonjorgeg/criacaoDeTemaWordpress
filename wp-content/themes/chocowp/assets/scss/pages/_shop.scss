@@ -1,0 +1,142 @@
+body {
+
+	.woocommerce {
+		max-width: 1180px;
+		width: 100%;
+		margin: auto;
+		padding: 50px 20px;
+		box-sizing: border-box;
+
+		.products {
+			padding-top: 25px;
+		}
+
+		.woocommerce-pagination {
+			
+			ul {
+				border-width: 0;
+
+				li {
+					border-width: 0;
+
+					a, span {
+						margin-right: 10px;
+						display: inline-block;
+					}
+
+				}
+
+			}
+
+		}
+
+		.product {
+			text-align: center;
+
+			img {
+				opacity: 1;
+
+				&:hover, &:focus {
+					opacity: 0.8;
+				}
+
+			}
+
+			.onsale {
+				@include font(14px, 1);
+				@include pos(absolute, auto, auto);
+				border-radius: 0;
+				display: inline-block;
+				padding: 15px 30px;
+				text-align: center;
+				color: #fff;
+				margin: 0 !important;
+				min-height: 0;
+				min-width: 0;
+				font-weight: 400;
+				top: 0 !important;
+				right: auto !important;
+				left: 0 !important;
+				z-index: 3;
+				letter-spacing: 1px;
+				background-color: #5A3F2E;
+				pointer-events: none;
+			}
+
+			h2 {
+				@include font(18px, 1.2);
+				@include font-header();
+				font-weight: 600;
+				padding-bottom: 15px !important;
+			}
+
+			.price {
+				@include font-header();
+				@include font(22px !important, 1);
+				font-weight: 200 !important;
+				color: #5A3F2E !important;
+
+				del {
+					display: inline-block;
+					padding-right: 5px;
+					opacity: 1 !important;
+				}
+
+				* {
+					@include font-header();
+					@include font(22px, 1);
+					font-weight: 200;
+					color: #5A3F2E;
+				}
+
+			}
+
+			.button {
+				@include font(14px, 1);
+				padding: 15px 30px !important;
+
+				&:after {
+					display: none;
+				}
+
+			}
+
+			.added_to_cart {
+				@include font(12px, 1);
+				margin-top: 5px;
+				display: block;
+			}
+
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	body {
+
+		.woocommerce {
+
+			.woocommerce-result-count {
+				display: block;
+				float: none;
+			}
+
+			.woocommerce-ordering {
+				float: none;
+			}
+
+			.products {}
+
+			.product {
+				width: 100% !important;
+				margin-bottom: 25px !important;
+			}
+
+		}
+
+	}
+}
+

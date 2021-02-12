@@ -1,0 +1,124 @@
+@media screen and (min-width: 1600px) {
+
+	.so-has-anim-divider {
+
+		.so-shape {
+			bottom: -350px;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	body:not(.elementor-page) {
+
+		.so-intro {
+			padding-top: 120px;
+			padding-bottom: 200px;
+
+			&-shape {
+				@include pos(absolute, auto, auto);
+				left: 0;
+				bottom: -200px;
+				z-index: 2;
+			}
+
+		}
+
+	}
+
+	.title-has-line {
+
+		h1, h2, h3, h4, h5, h6 {
+			position: relative;
+
+			&:before {
+				display: none;
+			}
+
+		}
+
+	}
+
+	.so-shape {
+		bottom: -300px;
+	}
+
+	#so-wrapper {
+		overflow-x: visible;
+	}
+
+	.so-header {
+
+		&-mob_slide {
+			display: block;
+			visibility: hidden;
+			
+			&.active {
+				visibility: visible;
+			}
+
+		}
+
+		.so-trigger {
+			display: inline-block;
+		}
+
+		&-logo {
+			max-width: 140px !important;
+		}
+
+		ul {
+			display: none;
+		}
+		
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.so-header {
+
+		&-logo {
+			max-width: 120px !important;
+		}
+
+	}
+
+	body:not(.elementor-page) {
+
+		.so-intro {
+			
+			h1 {
+				font-size: 30px;
+			}
+
+		}
+
+	}
+
+	.so-footer {
+
+		.so-row {
+
+			&:first-child {
+				@include flex($just: center);
+				@include flex-col();
+				padding-top: 40px;
+				padding-bottom: 20px;
+			}
+
+		}
+
+		.so-col {
+			width: 100% !important;
+			max-width: 400px;
+			padding-bottom: 20px;
+		}
+
+	}
+
+}

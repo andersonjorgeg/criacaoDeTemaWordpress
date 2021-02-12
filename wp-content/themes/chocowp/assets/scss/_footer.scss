@@ -1,0 +1,153 @@
+.so-footer {
+	background-color: #5A3F2E;
+	overflow: hidden;
+
+	.so-row {
+		@include flex($align: flex-start);
+
+		&:first-child {
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+
+		&:last-child {
+			@include flex();
+			position: relative;
+			padding-top: 25px;
+			padding-bottom: 25px;
+
+			&:before {
+				@include pos(absolute, auto, 1px);
+				background-color: rgba(#fff, 0.15);
+				top: 0;
+				left: -300%;
+				right: -300%;
+				content: '';
+			}
+
+			p {
+				@include font(12px, 1);
+				color: #fff !important;
+			}
+
+			a {
+				font-size: inherit;
+				color: #fff;
+				opacity: 0.8;
+				text-decoration: underline;
+			}
+
+		}
+
+	}
+
+	.so-col {
+		width: 20%;
+		text-align: left;
+
+		&:first-child {
+			width: 30%;
+		}
+
+	}
+
+	&-logo {
+		max-width: 185px !important;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	&-text {
+		@include font(14px !important, 1.5 !important);
+		text-align: left;
+		color: #fff !important;
+		padding-bottom: 30px;
+	}
+
+	&-soc {
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+
+			a {
+				@include dims(36px, 36px);
+				@include flex($just: center);
+				@include transition();
+				border-radius: 100%;
+				border: 1px solid #fff;
+				background-color: transparent;
+				text-decoration: none;
+
+				i {
+					@include transition();
+					color: #fff;
+				}
+
+				&:hover, &:focus {
+					background-color: #fff;
+
+					i {
+						color: #5A3F2E;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	h6 {
+		font-family: 'Poppins', sans-serif !important;
+		font-weight: 700;
+		color: #fff !important;
+		padding-bottom: 25px !important;
+	}
+
+	&-menu {
+		padding-left: 0;
+
+		ul {
+			padding-top: 15px;
+			padding-left: 20px;
+		}
+
+		li {
+			margin-bottom: 15px;
+			list-style-type: none;
+
+			a {
+				@include font(14px, 1.2);
+				color: #fff !important;
+				text-decoration: none;
+				display: inline-block;
+				position: relative;
+
+				&:after {
+					@include pos(absolute, auto, 2px);
+					@include transition();
+					left: 0;
+					right: 100%;
+					bottom: -6px;
+					background-color: #fff;
+					content: '';
+				}
+
+				&:hover, &:focus {
+
+					&:after {
+						right: 0;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

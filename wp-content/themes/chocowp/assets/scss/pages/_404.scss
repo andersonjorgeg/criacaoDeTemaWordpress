@@ -1,0 +1,41 @@
+.so-404 {
+	@include flex($just: center);
+	min-height: 100vh;
+
+	.so-content {
+		width: 100%;
+	}
+
+	h1 {
+		@include font-header();
+		color: #5A3F2E;
+		margin-bottom: 50px;
+	}
+
+	.so-row {
+		text-align: center;
+	}
+
+	img {
+		max-width: 600px !important;
+		width: 100%;
+		display: inline-block !important;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.so-404 {
+
+		h1 {
+			margin-bottom: 25px;
+		}
+
+		img {
+			margin-bottom: 25px;
+		}
+
+	}
+}

@@ -1,0 +1,17 @@
+/*
+Theme Name: ChocoWP
+Theme URI: https://zenith.team/chocowp-theme
+Description: ChocoWP is a free WordPress theme for cake, pizza, dessert, bakery, chocolate and coffee shops. Can be a great choise for a local bar, cafe, restaurant business or online shop. Theme is integrated with ecommerce (Woocommerce) so you will be able to easily sell products via website. It is also can be useful for food blog, cooking or a recipe website. It is very easy to edit and manage content because we used Elementor page builder for creating this theme, a lot of custom Elementor widgets were developed by us. Demo: https://zenith.team/choco
+Tags: grid-layout, four-columns, featured-images, right-sidebar, left-sidebar, blog, food-and-drink, e-commerce, custom-logo
+Author: Zenith Agency
+Author URI:  https://zenith.team/
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.22
+Tested up to: 5.6
+Requires PHP: 5.6
+Text Domain: chocowp
+*/
+
+html[lang] {
+  margin-top: 0 !important; }

@@ -1,0 +1,3355 @@
+body:not(.elementor-page) html, body:not(.elementor-page) body, body:not(.elementor-page) div, body:not(.elementor-page) span, body:not(.elementor-page) applet, body:not(.elementor-page) object, body:not(.elementor-page) iframe,
+body:not(.elementor-page) h1, body:not(.elementor-page) h2, body:not(.elementor-page) h3, body:not(.elementor-page) h4, body:not(.elementor-page) h5, body:not(.elementor-page) h6, body:not(.elementor-page) p, body:not(.elementor-page) blockquote, body:not(.elementor-page) pre,
+body:not(.elementor-page) a, body:not(.elementor-page) abbr, body:not(.elementor-page) acronym, body:not(.elementor-page) address, body:not(.elementor-page) big, body:not(.elementor-page) cite, body:not(.elementor-page) code,
+body:not(.elementor-page) del, body:not(.elementor-page) dfn, body:not(.elementor-page) em, body:not(.elementor-page) img, body:not(.elementor-page) ins, body:not(.elementor-page) kbd, body:not(.elementor-page) q, body:not(.elementor-page) s, body:not(.elementor-page) samp,
+body:not(.elementor-page) small, body:not(.elementor-page) strike, body:not(.elementor-page) strong, body:not(.elementor-page) sub, body:not(.elementor-page) sup, body:not(.elementor-page) tt, body:not(.elementor-page) var,
+body:not(.elementor-page) b, body:not(.elementor-page) u, body:not(.elementor-page) center,
+body:not(.elementor-page) dl, body:not(.elementor-page) dt, body:not(.elementor-page) dd, body:not(.elementor-page) ol, body:not(.elementor-page) ul, body:not(.elementor-page) li,
+body:not(.elementor-page) fieldset, body:not(.elementor-page) form, body:not(.elementor-page) label, body:not(.elementor-page) legend,
+body:not(.elementor-page) table, body:not(.elementor-page) caption, body:not(.elementor-page) tbody, body:not(.elementor-page) tfoot, body:not(.elementor-page) thead, body:not(.elementor-page) tr, body:not(.elementor-page) th, body:not(.elementor-page) td,
+body:not(.elementor-page) article, body:not(.elementor-page) aside, body:not(.elementor-page) canvas, body:not(.elementor-page) details, body:not(.elementor-page) embed,
+body:not(.elementor-page) figure, body:not(.elementor-page) figcaption, body:not(.elementor-page) footer, body:not(.elementor-page) header, body:not(.elementor-page) hgroup,
+body:not(.elementor-page) menu, body:not(.elementor-page) nav, body:not(.elementor-page) output, body:not(.elementor-page) ruby, body:not(.elementor-page) section, body:not(.elementor-page) summary,
+body:not(.elementor-page) time, body:not(.elementor-page) mark, body:not(.elementor-page) audio, body:not(.elementor-page) video, body:not(.elementor-page) input, body:not(.elementor-page) textarea, body:not(.elementor-page) button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #34302C;
+  letter-spacing: 0.5px;
+}
+body:not(.elementor-page) img {
+  max-width: 100%;
+  height: auto;
+}
+body:not(.elementor-page) article, body:not(.elementor-page) aside, body:not(.elementor-page) details, body:not(.elementor-page) figcaption, body:not(.elementor-page) figure,
+body:not(.elementor-page) footer, body:not(.elementor-page) header, body:not(.elementor-page) hgroup, body:not(.elementor-page) menu, body:not(.elementor-page) nav, body:not(.elementor-page) section, body:not(.elementor-page) time, body:not(.elementor-page) img {
+  display: block;
+}
+body:not(.elementor-page) h1, body:not(.elementor-page) h2, body:not(.elementor-page) h3, body:not(.elementor-page) h4, body:not(.elementor-page) h5, body:not(.elementor-page) h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body:not(.elementor-page) ol, body:not(.elementor-page) ul {
+  list-style: none;
+}
+body:not(.elementor-page) p, body:not(.elementor-page) li {
+  color: #34302C;
+  font-weight: 400;
+}
+body:not(.elementor-page) p, body:not(.elementor-page) li, body:not(.elementor-page) a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #34302C;
+  font-weight: 400;
+}
+body:not(.elementor-page) blockquote, body:not(.elementor-page) q {
+  quotes: none;
+}
+body:not(.elementor-page) blockquote:before, body:not(.elementor-page) blockquote:after,
+body:not(.elementor-page) q:before, body:not(.elementor-page) q:after {
+  content: "";
+  content: none;
+}
+body:not(.elementor-page) table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body:not(.elementor-page) a:hover, body:not(.elementor-page) a:active, body:not(.elementor-page) a:link {
+  text-decoration: none;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+  color: #fff !important;
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+* html body {
+  margin-top: 0 !important;
+}
+
+@media screen and (max-width: 782px) {
+  html {
+    margin-top: 0 !important;
+  }
+
+  * html body {
+    margin-top: 0 !important;
+  }
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+}
+
+.so-skip-link {
+  position: absolute;
+  top: -100px;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  color: #21759b;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: auto;
+  left: 6px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  width: auto;
+  z-index: 100000;
+  -webkit-transition: top 0.75s ease-out;
+  transition: top 0.75s ease-out;
+}
+
+.so-skip-link:focus {
+  color: #21759b;
+  top: 7px;
+  -webkit-transition: top 0s;
+  transition: top 0s;
+}
+
+.sticky {
+  opacity: 1;
+}
+
+.bypostauthor {
+  opacity: 1;
+}
+
+body {
+  background-color: #fff;
+}
+
+.customize-partial-edit-shortcut-button {
+  padding: 0 !important;
+}
+
+#so-wrapper {
+  position: relative;
+  z-index: 4;
+  background-color: #fff;
+  overflow-x: hidden;
+  right: 0;
+  transition: all 0.4s ease-in;
+}
+#so-wrapper .elementor, #so-wrapper .so-page {
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+}
+#so-wrapper.so-active {
+  overflow: hidden;
+  height: 100vh;
+}
+#so-wrapper.so-active_slide {
+  right: 300px;
+}
+
+.title-has-line h1, .title-has-line h2, .title-has-line h3, .title-has-line h4, .title-has-line h5, .title-has-line h6 {
+  position: relative;
+}
+.title-has-line h1:before, .title-has-line h2:before, .title-has-line h3:before, .title-has-line h4:before, .title-has-line h5:before, .title-has-line h6:before {
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  bottom: -15px;
+  margin-left: -20px;
+  background-color: #905B2E;
+  content: "";
+}
+
+.so-content {
+  text-align: center;
+  display: block;
+}
+
+.so-row {
+  max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.so-button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 10px 25px;
+  box-sizing: border-radius;
+  font-weight: 500;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #5A3F2E;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+}
+.so-button:hover, .so-button:focus {
+  opacity: 0.7;
+}
+.so-button-white {
+  background-color: #fff;
+  color: #5A3F2E !important;
+  font-weight: 700;
+}
+
+input, textarea {
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: block;
+  padding: 10px 25px;
+  box-sizing: border-radius;
+  font-weight: 500;
+  color: #5A3F2E;
+  transition: all 0.3s ease;
+  z-index: 1;
+  outline: none;
+  border-radius: 5px;
+  border-style: solid;
+  border: 1px solid rgba(144, 91, 46, 0.3);
+  width: 100%;
+  box-sizing: border-box;
+}
+input.wpcf7-not-valid, textarea.wpcf7-not-valid {
+  border-color: #ff3d3d;
+}
+input:focus, textarea:focus {
+  border-color: #905B2E;
+}
+
+label {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5A3F2E;
+}
+
+.wpcf7-response-output {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 15px 20px !important;
+  border-width: 0 !important;
+  color: #fff;
+  background-color: #5A3F2E;
+  border-radius: 5px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.so-form-row {
+  position: relative;
+  margin-bottom: 40px;
+}
+.so-form-row .wpcf7-not-valid-tip {
+  display: none;
+}
+.so-form-row br {
+  display: none;
+}
+.so-form-row label {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 11px;
+  left: 25px;
+  z-index: 2;
+}
+.so-form-row label.so-form-label-active {
+  font-size: 13px;
+  line-height: 1.5;
+  top: -25px;
+  left: 0;
+  color: rgba(90, 63, 46, 0.3);
+}
+.so-form-row label.so-form-label-focus {
+  font-size: 13px;
+  line-height: 1.5;
+  top: -25px;
+  left: 0;
+  color: #5A3F2E;
+}
+
+body:not(.elementor-page) h1, body:not(.elementor-page) h2, body:not(.elementor-page) h3, body:not(.elementor-page) h4, body:not(.elementor-page) h5, body:not(.elementor-page) h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #5A3F2E;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+body:not(.elementor-page) h1 *, body:not(.elementor-page) h2 *, body:not(.elementor-page) h3 *, body:not(.elementor-page) h4 *, body:not(.elementor-page) h5 *, body:not(.elementor-page) h6 * {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+body:not(.elementor-page) h1 * a, body:not(.elementor-page) h2 * a, body:not(.elementor-page) h3 * a, body:not(.elementor-page) h4 * a, body:not(.elementor-page) h5 * a, body:not(.elementor-page) h6 * a {
+  opacity: 1;
+}
+body:not(.elementor-page) h1 * a:hover, body:not(.elementor-page) h1 * a:focus, body:not(.elementor-page) h2 * a:hover, body:not(.elementor-page) h2 * a:focus, body:not(.elementor-page) h3 * a:hover, body:not(.elementor-page) h3 * a:focus, body:not(.elementor-page) h4 * a:hover, body:not(.elementor-page) h4 * a:focus, body:not(.elementor-page) h5 * a:hover, body:not(.elementor-page) h5 * a:focus, body:not(.elementor-page) h6 * a:hover, body:not(.elementor-page) h6 * a:focus {
+  opacity: 0.6;
+}
+body:not(.elementor-page) h1 {
+  font-size: 56px;
+  line-height: 1.2;
+}
+body:not(.elementor-page) h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+body:not(.elementor-page) h3 {
+  font-size: 34px;
+  line-height: 1.2;
+}
+body:not(.elementor-page) h4 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+body:not(.elementor-page) h5 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+body:not(.elementor-page) h6 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+body:not(.elementor-page) .so-intro {
+  padding-top: 200px;
+  padding-bottom: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+}
+body:not(.elementor-page) .so-intro h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  padding-bottom: 0;
+  word-break: break-all;
+}
+body:not(.elementor-page) .so-intro:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #383131;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  content: "";
+}
+body:not(.elementor-page) .so-intro-shape {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0;
+  bottom: -200px;
+  z-index: 2;
+}
+body:not(.elementor-page) .so-page {
+  padding-bottom: 0;
+}
+body:not(.elementor-page) .so-page .so-row {
+  text-align: left;
+  margin: auto;
+}
+
+.so-header {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.so-header .so-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.so-header-button {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+.so-header-logo {
+  max-width: 185px !important;
+  width: 100%;
+}
+.so-header .so-trigger {
+  width: 32px;
+  height: 19px;
+  position: relative;
+  cursor: pointer;
+  display: none;
+}
+.so-header .so-trigger.active {
+  height: 22px;
+}
+.so-header .so-trigger.active i:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 50%;
+  margin-top: 0;
+}
+.so-header .so-trigger.active i:nth-child(2) {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  top: 50%;
+  margin-top: 0px;
+}
+.so-header .so-trigger.active i:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 50%;
+  margin-top: 0px;
+  bottom: 0;
+}
+.so-header .so-trigger i {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  right: 0;
+}
+.so-header .so-trigger i:nth-child(1) {
+  top: 0;
+}
+.so-header .so-trigger i:nth-child(2) {
+  top: 50%;
+  margin-top: -1px;
+}
+.so-header .so-trigger i:nth-child(3) {
+  bottom: 1px;
+}
+.so-header ul {
+  padding-left: 0;
+}
+.so-header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  position: relative;
+}
+.so-header ul li.menu-item-has-children:hover .sub-menu {
+  opacity: 1;
+  left: -20px;
+  pointer-events: auto;
+}
+.so-header ul li .sub-menu {
+  position: absolute;
+  width: auto;
+  height: auto;
+  text-align: left;
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  min-width: 200px;
+  -webkit-box-shadow: 10px 10px 29px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 29px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 29px -20px rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  left: -20px;
+  pointer-events: none;
+}
+.so-header ul li .sub-menu.so-focused {
+  opacity: 1;
+  left: -20px;
+  pointer-events: auto;
+}
+.so-header ul li .sub-menu:before {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: -25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+}
+.so-header ul li .sub-menu li {
+  margin-left: 0;
+  display: block;
+}
+.so-header ul li .sub-menu li a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #5a3f2e !important;
+  display: block;
+  padding: 10px 10px;
+  line-height: 1.4;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.so-header ul li .sub-menu li a:hover, .so-header ul li .sub-menu li a:focus {
+  background-color: rgba(90, 63, 46, 0.05);
+}
+.so-header ul li .sub-menu li a:after {
+  display: none;
+}
+.so-header ul li a {
+  font-size: 14px;
+  line-height: 1;
+  color: #fff !important;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.so-header ul li a:after {
+  position: absolute;
+  width: auto;
+  height: 2px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  right: 100%;
+  bottom: -6px;
+  background-color: #fff;
+  content: "";
+}
+.so-header ul li a:hover:after, .so-header ul li a:focus:after {
+  right: 0;
+}
+.so-header ul li:hover > .sub-menu, .so-header ul li:focus > .sub-menu, .so-header ul li:active > .sub-menu {
+  opacity: 1;
+  left: -20px;
+}
+.so-header .so-row > ul > li > .sub-menu > li > .sub-menu {
+  left: -100%;
+  margin-left: -50px;
+  margin-top: -59px;
+}
+.so-header .so-row > ul > li > .sub-menu > li > .sub-menu:before {
+  right: -25px;
+}
+.so-header-mob_slide {
+  position: fixed;
+  width: 300px;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  right: -300px;
+  background-color: #5a3f2e;
+  box-sizing: border-box;
+  padding-top: 70px;
+  transition: all 0.4s ease-in;
+  z-index: 60;
+  -webkit-box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0);
+  display: none;
+}
+.so-header-mob_slide.active {
+  -webkit-box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 31px -5px rgba(0, 0, 0, 0.75);
+  right: 0;
+}
+.so-header-mob_slide-block {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  text-align: center;
+}
+.so-header-mob_slide-block li a {
+  padding: 15px 10px !important;
+}
+.so-header-mob_slide-wrapper {
+  height: 100%;
+  position: relative;
+}
+.so-header-mob_slide-menu {
+  height: 100%;
+}
+.so-header-mob_slide-menu .sub-menu {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4d3627;
+}
+.so-header-mob_slide-menu .sub-menu li {
+  list-style: none;
+}
+.so-header-mob_slide-menu .sub-menu li.has-child a {
+  background-color: #5a3f2e;
+}
+.so-header-mob_slide-menu .sub-menu li a {
+  font-size: 13px;
+  line-height: 1;
+  text-decoration: none;
+  padding-left: 50px;
+  background-color: #4d3627;
+}
+.so-header-mob_slide-menu ul {
+  padding-left: 0;
+}
+.so-header-mob_slide-menu ul li {
+  list-style: none;
+}
+.so-header-mob_slide-menu ul li a {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff !important;
+  display: block;
+  padding: 14px 10px 14px 30px;
+  position: relative;
+}
+.so-header-mob_slide-menu ul li a .so-plus {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 50%;
+  margin-top: -13px;
+  right: 20px;
+  padding: 0;
+  border-width: 0;
+}
+.so-header-mob_slide-menu ul li a .so-plus i {
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #5a3f2e;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px;
+  transition: all 0.3s ease;
+}
+.so-header-mob_slide-menu ul li a .so-plus i:first-child {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.so-header-mob_slide-menu ul li a .so-plus i:last-child {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -o-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+.so-header-mob_slide-menu ul li a .so-plus.active i:first-child {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.so-header-mob_slide-menu ul li a .so-plus.active i:last-child {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.so-footer {
+  background-color: #5A3F2E;
+  overflow: hidden;
+}
+.so-footer .so-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+}
+.so-footer .so-row:first-child {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.so-footer .so-row:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.so-footer .so-row:last-child:before {
+  position: absolute;
+  width: auto;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  top: 0;
+  left: -300%;
+  right: -300%;
+  content: "";
+}
+.so-footer .so-row:last-child p {
+  font-size: 12px;
+  line-height: 1;
+  color: #fff !important;
+}
+.so-footer .so-row:last-child a {
+  font-size: inherit;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.so-footer .so-col {
+  width: 20%;
+  text-align: left;
+}
+.so-footer .so-col:first-child {
+  width: 30%;
+}
+.so-footer-logo {
+  max-width: 185px !important;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.so-footer-text {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  text-align: left;
+  color: #fff !important;
+  padding-bottom: 30px;
+}
+.so-footer-soc {
+  padding-left: 0;
+}
+.so-footer-soc li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.so-footer-soc li a {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.so-footer-soc li a i {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.so-footer-soc li a:hover, .so-footer-soc li a:focus {
+  background-color: #fff;
+}
+.so-footer-soc li a:hover i, .so-footer-soc li a:focus i {
+  color: #5A3F2E;
+}
+.so-footer h6 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700;
+  color: #fff !important;
+  padding-bottom: 25px !important;
+}
+.so-footer-menu {
+  padding-left: 0;
+}
+.so-footer-menu ul {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.so-footer-menu li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.so-footer-menu li a {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.so-footer-menu li a:after {
+  position: absolute;
+  width: auto;
+  height: 2px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  left: 0;
+  right: 100%;
+  bottom: -6px;
+  background-color: #fff;
+  content: "";
+}
+.so-footer-menu li a:hover:after, .so-footer-menu li a:focus:after {
+  right: 0;
+}
+
+.so-404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.so-404 .so-content {
+  width: 100%;
+}
+.so-404 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #5A3F2E;
+  margin-bottom: 50px;
+}
+.so-404 .so-row {
+  text-align: center;
+}
+.so-404 img {
+  max-width: 600px !important;
+  width: 100%;
+  display: inline-block !important;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .so-404 h1 {
+    margin-bottom: 25px;
+  }
+  .so-404 img {
+    margin-bottom: 25px;
+  }
+}
+body:not(.elementor-page) .so-single-cats {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body:not(.elementor-page) .so-single-cats a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  padding: 10px 35px;
+  border-radius: 25px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  background-color: #ebe9eb;
+  color: #5A3F2E;
+  text-decoration: none !important;
+}
+body:not(.elementor-page) .so-single-cats a:hover, body:not(.elementor-page) .so-single-cats a:focus {
+  background-color: #5A3F2E;
+  color: #fff;
+}
+body:not(.elementor-page) .so-single-tags {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+  color: #5A3F2E;
+}
+body:not(.elementor-page) .so-single-tags a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-weight: 500;
+  color: #5A3F2E;
+  margin-right: 5px;
+  margin-left: 5px;
+  opacity: 1;
+  text-decoration: none !important;
+}
+body:not(.elementor-page) .so-single-tags a:hover, body:not(.elementor-page) .so-single-tags a:focus {
+  opacity: 0.7;
+}
+body:not(.elementor-page) .so-single-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+body:not(.elementor-page) .so-single-user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: inline-block;
+}
+body:not(.elementor-page) .so-single-user-data span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+}
+body:not(.elementor-page) .so-single-nav .so-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+}
+body:not(.elementor-page) .so-single-nav .so-col {
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  position: relative;
+}
+body:not(.elementor-page) .so-single-nav .so-col:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.43;
+  transition: all 0.3s ease;
+  z-index: 1;
+  content: "";
+}
+body:not(.elementor-page) .so-single-nav .so-col:hover:before, body:not(.elementor-page) .so-single-nav .so-col:focus:before {
+  opacity: 0.6;
+}
+body:not(.elementor-page) .so-single-nav .so-col * {
+  z-index: 2;
+  position: relative;
+}
+body:not(.elementor-page) .so-single-nav .so-col:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+body:not(.elementor-page) .so-single-nav .so-col:first-child div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body:not(.elementor-page) .so-single-nav .so-col:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+body:not(.elementor-page) .so-single-nav .so-col:last-child div {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+body:not(.elementor-page) .so-single-nav .so-col div {
+  box-sizing: border-box;
+  max-width: 587px;
+  display: inline-block;
+  width: 100%;
+}
+body:not(.elementor-page) .so-single-nav .so-col h4 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 0;
+  font-weight: 700;
+  word-break: break-all;
+}
+body:not(.elementor-page) .so-single-nav .so-col span {
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #fff;
+}
+body:not(.elementor-page) .so-single-nav.single-nav .so-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  width: 100%;
+}
+body:not(.elementor-page) .so-single-nav.single-nav .so-col div {
+  padding-left: 20px;
+}
+
+body .so-page .so-row-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+}
+body .so-page-main {
+  width: 100%;
+}
+body .so-page-sidebar {
+  max-width: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+  padding: 15px;
+  border-radius: 5px;
+}
+body .so-page-sidebar .searchform .screen-reader-text {
+  display: block;
+  padding-bottom: 10px;
+}
+body .so-page-sidebar-right {
+  margin-left: 30px;
+}
+body .so-page-sidebar-left {
+  margin-right: 30px;
+}
+body .so-page-sidebar input {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+body .so-page-sidebar aside {
+  padding: 0;
+}
+body .so-page-sidebar .widget_recent_entries ul {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body .so-page-sidebar .recentcomments {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+body .so-page-sidebar .recentcomments a {
+  font-size: 14px;
+  padding: 0;
+  border-bottom: 1px solid #5A3F2E;
+  opacity: 1;
+  border-radius: 0;
+}
+body .so-page-sidebar .recentcomments a:hover, body .so-page-sidebar .recentcomments a:focus {
+  background-color: transparent;
+  opacity: 0.7;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart {
+  padding-bottom: 15px;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item {
+  margin-bottom: 10px;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item .remove {
+  display: none !important;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item a {
+  padding: 0;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item a:hover, body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item a:focus {
+  background-color: transparent;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart .woocommerce-mini-cart-item a img {
+  width: 40px;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart__total {
+  margin-bottom: 10px;
+}
+body .so-page-sidebar .widget_shopping_cart_content .woocommerce-mini-cart__buttons a.button {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+body .so-page-sidebar #wp-calendar {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .so-page-sidebar #wp-calendar caption {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+body .so-page-sidebar #wp-calendar td, body .so-page-sidebar #wp-calendar th {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body .so-page-sidebar .product_list_widget {
+  padding-bottom: 20px;
+}
+body .so-page-sidebar .product_list_widget li {
+  margin-bottom: 10px;
+}
+body .so-page-sidebar .product_list_widget li a {
+  padding: 0;
+}
+body .so-page-sidebar .product_list_widget li a:hover, body .so-page-sidebar .product_list_widget li a:focus {
+  background-color: transparent;
+}
+body .so-page-sidebar .product_list_widget li a img {
+  width: 40px;
+}
+body .so-page-sidebar .widget_media_image {
+  margin-bottom: 20px;
+}
+body .so-page-sidebar .widget_media_image img {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+body .so-page-sidebar .widget_media_image img:hover, body .so-page-sidebar .widget_media_image img:focus {
+  border-color: #5A3F2E;
+}
+body .so-page-sidebar .gallery {
+  padding-bottom: 20px;
+}
+body .so-page-sidebar .gallery .gallery-icon {
+  padding: 4px;
+  box-sizing: border-box;
+}
+body .so-page-sidebar .gallery .gallery-icon img {
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+}
+body .so-page-sidebar .gallery .gallery-icon:hover img, body .so-page-sidebar .gallery .gallery-icon:focus img {
+  border-color: #5A3F2E !important;
+}
+body .so-page-sidebar .mejs-container {
+  color: #fff;
+  margin-bottom: 15px;
+}
+body .so-page-sidebar .mejs-container * {
+  color: #fff;
+  font-size: 10px;
+}
+body .so-page-sidebar .select2 {
+  margin-bottom: 15px;
+}
+body .so-page-sidebar #recentcomments {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .so-page-sidebar .children {
+  padding-bottom: 0;
+}
+body .so-page-sidebar .tagcloud {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+body .so-page-sidebar .tagcloud a {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  opacity: 1;
+}
+body .so-page-sidebar .tagcloud a:hover, body .so-page-sidebar .tagcloud a:focus {
+  opacity: 0.7;
+}
+body .so-page-sidebar .widget-description {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 1.3;
+  padding-bottom: 20px;
+}
+body .so-page-sidebar .widget-description * {
+  font-size: 14px;
+  line-height: 1.3;
+}
+body .so-page-sidebar .widget_recent_entries ul li span {
+  font-size: 14px;
+}
+body .so-page-sidebar .widget_recent_entries ul li a {
+  font-size: 14px;
+  padding: 0;
+  border-bottom: 1px solid #5A3F2E;
+  opacity: 1;
+  border-radius: 0;
+  display: inline-block;
+  margin: 8px;
+}
+body .so-page-sidebar .widget_recent_entries ul li a:hover, body .so-page-sidebar .widget_recent_entries ul li a:focus {
+  background-color: transparent;
+  opacity: 0.7;
+}
+body .so-page-sidebar .woocommerce-product-search {
+  padding-bottom: 20px;
+}
+body .so-page-sidebar .woocommerce-product-search button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 5px;
+  letter-spacing: 0.4px;
+  opacity: 1;
+}
+body .so-page-sidebar .woocommerce-product-search button:hover, body .so-page-sidebar .woocommerce-product-search button:focus {
+  opacity: 0.7;
+}
+body .so-page-sidebar #searchsubmit, body .so-page-sidebar .woocommerce-product-search button {
+  color: #fff;
+  background-color: #5A3F2E;
+  border-width: 0;
+  cursor: pointer;
+  opacity: 1;
+  letter-spacing: 0.4px;
+}
+body .so-page-sidebar #searchsubmit:hover, body .so-page-sidebar #searchsubmit:focus, body .so-page-sidebar .woocommerce-product-search button:hover, body .so-page-sidebar .woocommerce-product-search button:focus {
+  opacity: 0.7;
+}
+body .so-page-sidebar h3 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+body .so-page-sidebar ul {
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+body .so-page-sidebar ul:empty {
+  display: none;
+}
+body .so-page-sidebar ul li {
+  font-size: 0;
+}
+body .so-page-sidebar ul li a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+body .so-page-sidebar ul li a:hover, body .so-page-sidebar ul li a:focus {
+  background-color: #dddddd;
+}
+body .so-page-sidebar #searchform {
+  padding-bottom: 15px;
+}
+body .so-page-sidebar #sidebar > ul {
+  padding-bottom: 0;
+}
+body .so-page .so-content {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+body .so-page .so-content-comment {
+  background-color: #F6F6F6;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+body .so-page .so-row-comment {
+  text-align: center !important;
+  max-width: 1000px;
+}
+body .so-page .so-row-comment .comment-form > p {
+  margin-bottom: 25px;
+}
+body .so-page .so-row-comment .comment-form label {
+  position: relative;
+  top: -3px;
+}
+body .so-page .so-row-comment .comment-form .form-submit {
+  margin-bottom: 0 !important;
+}
+body .so-page .so-row-comment .comment-form .comment-form-cookies-consent {
+  margin-bottom: 0 !important;
+}
+body .so-page .so-row-comment .comment-form .comment-form-cookies-consent input {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+body .so-page .so-row-comment .navigation a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  opacity: 1;
+}
+body .so-page .so-row-comment .navigation a:hover, body .so-page .so-row-comment .navigation a:focus {
+  opacity: 0.6;
+}
+body .so-page .so-row-comment #comments {
+  text-align: center;
+}
+body .so-page .so-row-comment .commentlist {
+  padding-left: 0;
+}
+body .so-page .so-row-comment .commentlist .trackback {
+  text-align: left;
+}
+body .so-page .so-row-comment .commentlist .comment, body .so-page .so-row-comment .commentlist .trackback, body .so-page .so-row-comment .commentlist .pingback {
+  text-align: left;
+  list-style: none;
+  padding-bottom: 15px;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-author, body .so-page .so-row-comment .commentlist .trackback .comment-author, body .so-page .so-row-comment .commentlist .pingback .comment-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  line-height: 1;
+  padding-bottom: 0 !important;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-author *, body .so-page .so-row-comment .commentlist .trackback .comment-author *, body .so-page .so-row-comment .commentlist .pingback .comment-author * {
+  font-size: 14px;
+  line-height: 1.4;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-author img, body .so-page .so-row-comment .commentlist .trackback .comment-author img, body .so-page .so-row-comment .commentlist .pingback .comment-author img {
+  line-height: 1;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-author .fn, body .so-page .so-row-comment .commentlist .trackback .comment-author .fn, body .so-page .so-row-comment .commentlist .pingback .comment-author .fn {
+  margin-right: 10px;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-body a, body .so-page .so-row-comment .commentlist .trackback .comment-body a, body .so-page .so-row-comment .commentlist .pingback .comment-body a {
+  text-decoration: none;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-body > p, body .so-page .so-row-comment .commentlist .trackback .comment-body > p, body .so-page .so-row-comment .commentlist .pingback .comment-body > p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-meta, body .so-page .so-row-comment .commentlist .trackback .comment-meta, body .so-page .so-row-comment .commentlist .pingback .comment-meta {
+  padding-bottom: 0 !important;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-meta a, body .so-page .so-row-comment .commentlist .trackback .comment-meta a, body .so-page .so-row-comment .commentlist .pingback .comment-meta a {
+  text-decoration: none;
+}
+body .so-page .so-row-comment .commentlist .comment .comment-meta *, body .so-page .so-row-comment .commentlist .trackback .comment-meta *, body .so-page .so-row-comment .commentlist .pingback .comment-meta * {
+  font-size: 12px;
+  line-height: 1.4;
+}
+body .so-page .so-row-comment .commentlist .comment .reply, body .so-page .so-row-comment .commentlist .trackback .reply, body .so-page .so-row-comment .commentlist .pingback .reply {
+  text-align: right;
+  padding-bottom: 0;
+}
+body .so-page .so-row-comment .commentlist .comment .reply a, body .so-page .so-row-comment .commentlist .trackback .reply a, body .so-page .so-row-comment .commentlist .pingback .reply a {
+  font-size: 12px;
+  line-height: 1.4;
+}
+body .so-page .comment-respond {
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+}
+body .so-page .comment-respond textarea {
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+body .so-page .comment-respond h3 {
+  padding-bottom: 10px;
+}
+body .so-page .comment-respond .submit {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  display: inline-block;
+  padding: 10px 25px;
+  box-sizing: border-radius;
+  font-weight: 500 !important;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #5A3F2E !important;
+  color: #fff !important;
+  text-decoration: none;
+  opacity: 1;
+  margin-top: 20px !important;
+}
+body .so-page .comment-respond .submit:hover, body .so-page .comment-respond .submit:focus {
+  opacity: 0.7;
+}
+
+body.single-post .so-page .so-row .so-page-main, body.single-post .so-page .commentlist .comment-body,
+body.single-recipe .so-page .so-row .so-page-main,
+body.single-recipe .so-page .commentlist .comment-body,
+body.page-template-default .so-page .so-row .so-page-main,
+body.page-template-default .so-page .commentlist .comment-body {
+  clear: both;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-quote, body.single-post .so-page .so-row .so-page-main blockquote, body.single-post .so-page .so-row .so-page-main q, body.single-post .so-page .commentlist .comment-body .wp-block-quote, body.single-post .so-page .commentlist .comment-body blockquote, body.single-post .so-page .commentlist .comment-body q,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-quote,
+body.single-recipe .so-page .so-row .so-page-main blockquote,
+body.single-recipe .so-page .so-row .so-page-main q,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-quote,
+body.single-recipe .so-page .commentlist .comment-body blockquote,
+body.single-recipe .so-page .commentlist .comment-body q,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-quote,
+body.page-template-default .so-page .so-row .so-page-main blockquote,
+body.page-template-default .so-page .so-row .so-page-main q,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-quote,
+body.page-template-default .so-page .commentlist .comment-body blockquote,
+body.page-template-default .so-page .commentlist .comment-body q {
+  border-left: 3px solid #5A3F2E;
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main fieldset, body.single-post .so-page .commentlist .comment-body fieldset,
+body.single-recipe .so-page .so-row .so-page-main fieldset,
+body.single-recipe .so-page .commentlist .comment-body fieldset,
+body.page-template-default .so-page .so-row .so-page-main fieldset,
+body.page-template-default .so-page .commentlist .comment-body fieldset {
+  margin-bottom: 30px;
+}
+body.single-post .so-page .so-row .so-page-main hr, body.single-post .so-page .commentlist .comment-body hr,
+body.single-recipe .so-page .so-row .so-page-main hr,
+body.single-recipe .so-page .commentlist .comment-body hr,
+body.page-template-default .so-page .so-row .so-page-main hr,
+body.page-template-default .so-page .commentlist .comment-body hr {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+body.single-post .so-page .so-row .so-page-main *, body.single-post .so-page .commentlist .comment-body *,
+body.single-recipe .so-page .so-row .so-page-main *,
+body.single-recipe .so-page .commentlist .comment-body *,
+body.page-template-default .so-page .so-row .so-page-main *,
+body.page-template-default .so-page .commentlist .comment-body * {
+  line-height: 1.8;
+}
+body.single-post .so-page .so-row .so-page-main > *, body.single-post .so-page .commentlist .comment-body > *,
+body.single-recipe .so-page .so-row .so-page-main > *,
+body.single-recipe .so-page .commentlist .comment-body > *,
+body.page-template-default .so-page .so-row .so-page-main > *,
+body.page-template-default .so-page .commentlist .comment-body > * {
+  padding-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main a, body.single-post .so-page .commentlist .comment-body a,
+body.single-recipe .so-page .so-row .so-page-main a,
+body.single-recipe .so-page .commentlist .comment-body a,
+body.page-template-default .so-page .so-row .so-page-main a,
+body.page-template-default .so-page .commentlist .comment-body a {
+  text-decoration: underline;
+}
+body.single-post .so-page .so-row .so-page-main dl dd, body.single-post .so-page .commentlist .comment-body dl dd,
+body.single-recipe .so-page .so-row .so-page-main dl dd,
+body.single-recipe .so-page .commentlist .comment-body dl dd,
+body.page-template-default .so-page .so-row .so-page-main dl dd,
+body.page-template-default .so-page .commentlist .comment-body dl dd {
+  padding-left: 30px;
+}
+body.single-post .so-page .so-row .so-page-main .is-style-circle-mask img, body.single-post .so-page .commentlist .comment-body .is-style-circle-mask img,
+body.single-recipe .so-page .so-row .so-page-main .is-style-circle-mask img,
+body.single-recipe .so-page .commentlist .comment-body .is-style-circle-mask img,
+body.page-template-default .so-page .so-row .so-page-main .is-style-circle-mask img,
+body.page-template-default .so-page .commentlist .comment-body .is-style-circle-mask img {
+  border-radius: 100%;
+}
+body.single-post .so-page .so-row .so-page-main small, body.single-post .so-page .so-row .so-page-main .has-small-font-size, body.single-post .so-page .commentlist .comment-body small, body.single-post .so-page .commentlist .comment-body .has-small-font-size,
+body.single-recipe .so-page .so-row .so-page-main small,
+body.single-recipe .so-page .so-row .so-page-main .has-small-font-size,
+body.single-recipe .so-page .commentlist .comment-body small,
+body.single-recipe .so-page .commentlist .comment-body .has-small-font-size,
+body.page-template-default .so-page .so-row .so-page-main small,
+body.page-template-default .so-page .so-row .so-page-main .has-small-font-size,
+body.page-template-default .so-page .commentlist .comment-body small,
+body.page-template-default .so-page .commentlist .comment-body .has-small-font-size {
+  font-size: 14px;
+}
+body.single-post .so-page .so-row .so-page-main .has-large-font-size, body.single-post .so-page .commentlist .comment-body .has-large-font-size,
+body.single-recipe .so-page .so-row .so-page-main .has-large-font-size,
+body.single-recipe .so-page .commentlist .comment-body .has-large-font-size,
+body.page-template-default .so-page .so-row .so-page-main .has-large-font-size,
+body.page-template-default .so-page .commentlist .comment-body .has-large-font-size {
+  font-size: 26px;
+}
+body.single-post .so-page .so-row .so-page-main .has-background, body.single-post .so-page .commentlist .comment-body .has-background,
+body.single-recipe .so-page .so-row .so-page-main .has-background,
+body.single-recipe .so-page .commentlist .comment-body .has-background,
+body.page-template-default .so-page .so-row .so-page-main .has-background,
+body.page-template-default .so-page .commentlist .comment-body .has-background {
+  margin-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main code, body.single-post .so-page .commentlist .comment-body code,
+body.single-recipe .so-page .so-row .so-page-main code,
+body.single-recipe .so-page .commentlist .comment-body code,
+body.page-template-default .so-page .so-row .so-page-main code,
+body.page-template-default .so-page .commentlist .comment-body code {
+  padding: 10px 15px 10px 15px;
+  background-color: #f9f6f4;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body.single-post .so-page .so-row .so-page-main table, body.single-post .so-page .commentlist .comment-body table,
+body.single-recipe .so-page .so-row .so-page-main table,
+body.single-recipe .so-page .commentlist .comment-body table,
+body.page-template-default .so-page .so-row .so-page-main table,
+body.page-template-default .so-page .commentlist .comment-body table {
+  margin-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main table th, body.single-post .so-page .commentlist .comment-body table th,
+body.single-recipe .so-page .so-row .so-page-main table th,
+body.single-recipe .so-page .commentlist .comment-body table th,
+body.page-template-default .so-page .so-row .so-page-main table th,
+body.page-template-default .so-page .commentlist .comment-body table th {
+  padding: 7px;
+  border: 1px solid #5A3F2E;
+}
+body.single-post .so-page .so-row .so-page-main table td, body.single-post .so-page .commentlist .comment-body table td,
+body.single-recipe .so-page .so-row .so-page-main table td,
+body.single-recipe .so-page .commentlist .comment-body table td,
+body.page-template-default .so-page .so-row .so-page-main table td,
+body.page-template-default .so-page .commentlist .comment-body table td {
+  padding: 7px;
+  border: 1px solid #5A3F2E;
+}
+body.single-post .so-page .so-row .so-page-main h1, body.single-post .so-page .so-row .so-page-main h2, body.single-post .so-page .so-row .so-page-main h3, body.single-post .so-page .so-row .so-page-main h4, body.single-post .so-page .so-row .so-page-main h5, body.single-post .so-page .so-row .so-page-main h6, body.single-post .so-page .commentlist .comment-body h1, body.single-post .so-page .commentlist .comment-body h2, body.single-post .so-page .commentlist .comment-body h3, body.single-post .so-page .commentlist .comment-body h4, body.single-post .so-page .commentlist .comment-body h5, body.single-post .so-page .commentlist .comment-body h6,
+body.single-recipe .so-page .so-row .so-page-main h1,
+body.single-recipe .so-page .so-row .so-page-main h2,
+body.single-recipe .so-page .so-row .so-page-main h3,
+body.single-recipe .so-page .so-row .so-page-main h4,
+body.single-recipe .so-page .so-row .so-page-main h5,
+body.single-recipe .so-page .so-row .so-page-main h6,
+body.single-recipe .so-page .commentlist .comment-body h1,
+body.single-recipe .so-page .commentlist .comment-body h2,
+body.single-recipe .so-page .commentlist .comment-body h3,
+body.single-recipe .so-page .commentlist .comment-body h4,
+body.single-recipe .so-page .commentlist .comment-body h5,
+body.single-recipe .so-page .commentlist .comment-body h6,
+body.page-template-default .so-page .so-row .so-page-main h1,
+body.page-template-default .so-page .so-row .so-page-main h2,
+body.page-template-default .so-page .so-row .so-page-main h3,
+body.page-template-default .so-page .so-row .so-page-main h4,
+body.page-template-default .so-page .so-row .so-page-main h5,
+body.page-template-default .so-page .so-row .so-page-main h6,
+body.page-template-default .so-page .commentlist .comment-body h1,
+body.page-template-default .so-page .commentlist .comment-body h2,
+body.page-template-default .so-page .commentlist .comment-body h3,
+body.page-template-default .so-page .commentlist .comment-body h4,
+body.page-template-default .so-page .commentlist .comment-body h5,
+body.page-template-default .so-page .commentlist .comment-body h6 {
+  line-height: 1.4;
+}
+body.single-post .so-page .so-row .so-page-main h4, body.single-post .so-page .so-row .so-page-main h5, body.single-post .so-page .so-row .so-page-main h6, body.single-post .so-page .commentlist .comment-body h4, body.single-post .so-page .commentlist .comment-body h5, body.single-post .so-page .commentlist .comment-body h6,
+body.single-recipe .so-page .so-row .so-page-main h4,
+body.single-recipe .so-page .so-row .so-page-main h5,
+body.single-recipe .so-page .so-row .so-page-main h6,
+body.single-recipe .so-page .commentlist .comment-body h4,
+body.single-recipe .so-page .commentlist .comment-body h5,
+body.single-recipe .so-page .commentlist .comment-body h6,
+body.page-template-default .so-page .so-row .so-page-main h4,
+body.page-template-default .so-page .so-row .so-page-main h5,
+body.page-template-default .so-page .so-row .so-page-main h6,
+body.page-template-default .so-page .commentlist .comment-body h4,
+body.page-template-default .so-page .commentlist .comment-body h5,
+body.page-template-default .so-page .commentlist .comment-body h6 {
+  padding-bottom: 15px;
+}
+body.single-post .so-page .so-row .so-page-main ul, body.single-post .so-page .commentlist .comment-body ul,
+body.single-recipe .so-page .so-row .so-page-main ul,
+body.single-recipe .so-page .commentlist .comment-body ul,
+body.page-template-default .so-page .so-row .so-page-main ul,
+body.page-template-default .so-page .commentlist .comment-body ul {
+  list-style: disc;
+}
+body.single-post .so-page .so-row .so-page-main ol, body.single-post .so-page .commentlist .comment-body ol,
+body.single-recipe .so-page .so-row .so-page-main ol,
+body.single-recipe .so-page .commentlist .comment-body ol,
+body.page-template-default .so-page .so-row .so-page-main ol,
+body.page-template-default .so-page .commentlist .comment-body ol {
+  list-style: decimal;
+}
+body.single-post .so-page .so-row .so-page-main ul, body.single-post .so-page .so-row .so-page-main ol, body.single-post .so-page .commentlist .comment-body ul, body.single-post .so-page .commentlist .comment-body ol,
+body.single-recipe .so-page .so-row .so-page-main ul,
+body.single-recipe .so-page .so-row .so-page-main ol,
+body.single-recipe .so-page .commentlist .comment-body ul,
+body.single-recipe .so-page .commentlist .comment-body ol,
+body.page-template-default .so-page .so-row .so-page-main ul,
+body.page-template-default .so-page .so-row .so-page-main ol,
+body.page-template-default .so-page .commentlist .comment-body ul,
+body.page-template-default .so-page .commentlist .comment-body ol {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body.single-post .so-page .so-row .so-page-main ul li, body.single-post .so-page .so-row .so-page-main ol li, body.single-post .so-page .commentlist .comment-body ul li, body.single-post .so-page .commentlist .comment-body ol li,
+body.single-recipe .so-page .so-row .so-page-main ul li,
+body.single-recipe .so-page .so-row .so-page-main ol li,
+body.single-recipe .so-page .commentlist .comment-body ul li,
+body.single-recipe .so-page .commentlist .comment-body ol li,
+body.page-template-default .so-page .so-row .so-page-main ul li,
+body.page-template-default .so-page .so-row .so-page-main ol li,
+body.page-template-default .so-page .commentlist .comment-body ul li,
+body.page-template-default .so-page .commentlist .comment-body ol li {
+  margin-bottom: 10px;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-image, body.single-post .so-page .commentlist .comment-body .wp-block-image,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-image,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-image,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-image,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-image {
+  display: inherit;
+  padding-bottom: 0;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-image figcaption, body.single-post .so-page .commentlist .comment-body .wp-block-image figcaption,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-image figcaption,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-image figcaption,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-image figcaption,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-image figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+body.single-post .so-page .so-row .so-page-main .aligncenter, body.single-post .so-page .commentlist .comment-body .aligncenter,
+body.single-recipe .so-page .so-row .so-page-main .aligncenter,
+body.single-recipe .so-page .commentlist .comment-body .aligncenter,
+body.page-template-default .so-page .so-row .so-page-main .aligncenter,
+body.page-template-default .so-page .commentlist .comment-body .aligncenter {
+  margin: auto;
+}
+body.single-post .so-page .so-row .so-page-main .alignleft, body.single-post .so-page .commentlist .comment-body .alignleft,
+body.single-recipe .so-page .so-row .so-page-main .alignleft,
+body.single-recipe .so-page .commentlist .comment-body .alignleft,
+body.page-template-default .so-page .so-row .so-page-main .alignleft,
+body.page-template-default .so-page .commentlist .comment-body .alignleft {
+  float: left;
+  margin: 5px 20px 5px 0;
+}
+body.single-post .so-page .so-row .so-page-main .alignright, body.single-post .so-page .commentlist .comment-body .alignright,
+body.single-recipe .so-page .so-row .so-page-main .alignright,
+body.single-recipe .so-page .commentlist .comment-body .alignright,
+body.page-template-default .so-page .so-row .so-page-main .alignright,
+body.page-template-default .so-page .commentlist .comment-body .alignright {
+  float: right;
+  margin: 5px 0 5px 20px;
+}
+body.single-post .so-page .so-row .so-page-main figure figcaption, body.single-post .so-page .commentlist .comment-body figure figcaption,
+body.single-recipe .so-page .so-row .so-page-main figure figcaption,
+body.single-recipe .so-page .commentlist .comment-body figure figcaption,
+body.page-template-default .so-page .so-row .so-page-main figure figcaption,
+body.page-template-default .so-page .commentlist .comment-body figure figcaption {
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}
+body.single-post .so-page .so-row .so-page-main figure figcaption a, body.single-post .so-page .commentlist .comment-body figure figcaption a,
+body.single-recipe .so-page .so-row .so-page-main figure figcaption a,
+body.single-recipe .so-page .commentlist .comment-body figure figcaption a,
+body.page-template-default .so-page .so-row .so-page-main figure figcaption a,
+body.page-template-default .so-page .commentlist .comment-body figure figcaption a {
+  text-decoration: underline;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+body.single-post .so-page .so-row .so-page-main figure figcaption *, body.single-post .so-page .commentlist .comment-body figure figcaption *,
+body.single-recipe .so-page .so-row .so-page-main figure figcaption *,
+body.single-recipe .so-page .commentlist .comment-body figure figcaption *,
+body.page-template-default .so-page .so-row .so-page-main figure figcaption *,
+body.page-template-default .so-page .commentlist .comment-body figure figcaption * {
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+body.single-post .so-page .so-row .so-page-main .wp-caption-text, body.single-post .so-page .commentlist .comment-body .wp-caption-text,
+body.single-recipe .so-page .so-row .so-page-main .wp-caption-text,
+body.single-recipe .so-page .commentlist .comment-body .wp-caption-text,
+body.page-template-default .so-page .so-row .so-page-main .wp-caption-text,
+body.page-template-default .so-page .commentlist .comment-body .wp-caption-text {
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}
+body.single-post .so-page .so-row .so-page-main .wp-caption-text a, body.single-post .so-page .commentlist .comment-body .wp-caption-text a,
+body.single-recipe .so-page .so-row .so-page-main .wp-caption-text a,
+body.single-recipe .so-page .commentlist .comment-body .wp-caption-text a,
+body.page-template-default .so-page .so-row .so-page-main .wp-caption-text a,
+body.page-template-default .so-page .commentlist .comment-body .wp-caption-text a {
+  text-decoration: underline;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-cover, body.single-post .so-page .commentlist .comment-body .wp-block-cover,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-cover,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-cover,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-cover,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-cover {
+  padding-bottom: 0;
+  margin-bottom: 40px;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-button__link, body.single-post .so-page .commentlist .comment-body .wp-block-button__link,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-button__link,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-button__link,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-button__link,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-button__link {
+  color: #fff;
+  background-color: #5A3F2E;
+  opacity: 1;
+  text-decoration: none;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-button__link:hover, body.single-post .so-page .so-row .so-page-main .wp-block-button__link:focus, body.single-post .so-page .commentlist .comment-body .wp-block-button__link:hover, body.single-post .so-page .commentlist .comment-body .wp-block-button__link:focus,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-button__link:hover,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-button__link:focus,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-button__link:hover,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-button__link:focus,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-button__link:hover,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-button__link:focus,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-button__link:hover,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-button__link:focus {
+  opacity: 0.7;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-button.is-style-outline .wp-block-button__link, body.single-post .so-page .commentlist .comment-body .wp-block-button.is-style-outline .wp-block-button__link,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-button.is-style-outline .wp-block-button__link,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-button.is-style-outline .wp-block-button__link,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-button.is-style-outline .wp-block-button__link,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-button.is-style-outline .wp-block-button__link {
+  background-color: #926950;
+  border-color: #5A3F2E;
+}
+body.single-post .so-page .so-row .so-page-main .blocks-gallery-grid, body.single-post .so-page .commentlist .comment-body .blocks-gallery-grid,
+body.single-recipe .so-page .so-row .so-page-main .blocks-gallery-grid,
+body.single-recipe .so-page .commentlist .comment-body .blocks-gallery-grid,
+body.page-template-default .so-page .so-row .so-page-main .blocks-gallery-grid,
+body.page-template-default .so-page .commentlist .comment-body .blocks-gallery-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+body.single-post .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item, body.single-post .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item,
+body.single-recipe .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item,
+body.single-recipe .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item,
+body.page-template-default .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item,
+body.page-template-default .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item {
+  display: inline-flex;
+}
+body.single-post .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item figcaption, body.single-post .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item figcaption,
+body.single-recipe .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item figcaption,
+body.single-recipe .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item figcaption,
+body.page-template-default .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item figcaption,
+body.page-template-default .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item figcaption {
+  box-sizing: border-box;
+}
+body.single-post .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item img, body.single-post .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item img,
+body.single-recipe .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item img,
+body.single-recipe .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item img,
+body.page-template-default .so-page .so-row .so-page-main .blocks-gallery-grid .blocks-gallery-item img,
+body.page-template-default .so-page .commentlist .comment-body .blocks-gallery-grid .blocks-gallery-item img {
+  min-height: 200px;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-gallery, body.single-post .so-page .commentlist .comment-body .wp-block-gallery,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-gallery,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-gallery,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-gallery,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-gallery {
+  padding-bottom: 40px;
+}
+body.single-post .so-page .so-row .so-page-main .clear, body.single-post .so-page .commentlist .comment-body .clear,
+body.single-recipe .so-page .so-row .so-page-main .clear,
+body.single-recipe .so-page .commentlist .comment-body .clear,
+body.page-template-default .so-page .so-row .so-page-main .clear,
+body.page-template-default .so-page .commentlist .comment-body .clear {
+  clear: both;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-embed__wrapper, body.single-post .so-page .commentlist .comment-body .wp-block-embed__wrapper,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-embed__wrapper,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-embed__wrapper,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-embed__wrapper,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-embed__wrapper {
+  text-align: center;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-embed__wrapper > div, body.single-post .so-page .so-row .so-page-main .wp-block-embed__wrapper > iframe, body.single-post .so-page .commentlist .comment-body .wp-block-embed__wrapper > div, body.single-post .so-page .commentlist .comment-body .wp-block-embed__wrapper > iframe,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-embed__wrapper > div,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-embed__wrapper > iframe,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-embed__wrapper > div,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-embed__wrapper > iframe,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-embed__wrapper > div,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-embed__wrapper > iframe,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-embed__wrapper > div,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-embed__wrapper > iframe {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: inline-block;
+}
+body.single-post .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > div, body.single-post .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > iframe, body.single-post .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > div, body.single-post .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > iframe,
+body.single-recipe .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > div,
+body.single-recipe .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > iframe,
+body.single-recipe .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > div,
+body.single-recipe .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > iframe,
+body.page-template-default .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > div,
+body.page-template-default .so-page .so-row .so-page-main .alignfull .wp-block-embed__wrapper > iframe,
+body.page-template-default .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > div,
+body.page-template-default .so-page .commentlist .comment-body .alignfull .wp-block-embed__wrapper > iframe {
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 500px;
+}
+body.single-post .so-page .so-row .so-page-main .wp-block-group, body.single-post .so-page .commentlist .comment-body .wp-block-group,
+body.single-recipe .so-page .so-row .so-page-main .wp-block-group,
+body.single-recipe .so-page .commentlist .comment-body .wp-block-group,
+body.page-template-default .so-page .so-row .so-page-main .wp-block-group,
+body.page-template-default .so-page .commentlist .comment-body .wp-block-group {
+  padding: 25px;
+  margin-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots), body.single-post .so-page .commentlist .comment-body hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+body.single-recipe .so-page .so-row .so-page-main hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+body.single-recipe .so-page .commentlist .comment-body hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+body.page-template-default .so-page .so-row .so-page-main hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+body.page-template-default .so-page .commentlist .comment-body hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  width: 100%;
+  height: 3px;
+  padding: 0;
+  background-color: #5A3F2E;
+  margin: auto;
+  display: inline-block;
+  max-width: 300px;
+}
+body.single-post .so-page .so-row .so-page-main hr.is-style-wide, body.single-post .so-page .so-row .so-page-main hr:not(.wp-block-separator), body.single-post .so-page .commentlist .comment-body hr.is-style-wide, body.single-post .so-page .commentlist .comment-body hr:not(.wp-block-separator),
+body.single-recipe .so-page .so-row .so-page-main hr.is-style-wide,
+body.single-recipe .so-page .so-row .so-page-main hr:not(.wp-block-separator),
+body.single-recipe .so-page .commentlist .comment-body hr.is-style-wide,
+body.single-recipe .so-page .commentlist .comment-body hr:not(.wp-block-separator),
+body.page-template-default .so-page .so-row .so-page-main hr.is-style-wide,
+body.page-template-default .so-page .so-row .so-page-main hr:not(.wp-block-separator),
+body.page-template-default .so-page .commentlist .comment-body hr.is-style-wide,
+body.page-template-default .so-page .commentlist .comment-body hr:not(.wp-block-separator) {
+  width: 100%;
+  height: 3px;
+  padding: 0;
+  background-color: #5A3F2E;
+  margin: auto;
+  display: inline-block;
+}
+body.single-post .so-page .so-row .so-page-main .post-password-form input, body.single-post .so-page .commentlist .comment-body .post-password-form input,
+body.single-recipe .so-page .so-row .so-page-main .post-password-form input,
+body.single-recipe .so-page .commentlist .comment-body .post-password-form input,
+body.page-template-default .so-page .so-row .so-page-main .post-password-form input,
+body.page-template-default .so-page .commentlist .comment-body .post-password-form input {
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+body.single-post .so-page .so-row .so-page-main .mejs-container .mejs-currenttime, body.single-post .so-page .so-row .so-page-main .mejs-container .mejs-duration, body.single-post .so-page .commentlist .comment-body .mejs-container .mejs-currenttime, body.single-post .so-page .commentlist .comment-body .mejs-container .mejs-duration,
+body.single-recipe .so-page .so-row .so-page-main .mejs-container .mejs-currenttime,
+body.single-recipe .so-page .so-row .so-page-main .mejs-container .mejs-duration,
+body.single-recipe .so-page .commentlist .comment-body .mejs-container .mejs-currenttime,
+body.single-recipe .so-page .commentlist .comment-body .mejs-container .mejs-duration,
+body.page-template-default .so-page .so-row .so-page-main .mejs-container .mejs-currenttime,
+body.page-template-default .so-page .so-row .so-page-main .mejs-container .mejs-duration,
+body.page-template-default .so-page .commentlist .comment-body .mejs-container .mejs-currenttime,
+body.page-template-default .so-page .commentlist .comment-body .mejs-container .mejs-duration {
+  position: relative;
+  top: -10px;
+  color: #fff;
+}
+body.single-post .so-page .so-row .so-page-main .gallery .gallery-item, body.single-post .so-page .commentlist .comment-body .gallery .gallery-item,
+body.single-recipe .so-page .so-row .so-page-main .gallery .gallery-item,
+body.single-recipe .so-page .commentlist .comment-body .gallery .gallery-item,
+body.page-template-default .so-page .so-row .so-page-main .gallery .gallery-item,
+body.page-template-default .so-page .commentlist .comment-body .gallery .gallery-item {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+body.single-post .so-page .so-row .so-page-main .gallery .gallery-item img, body.single-post .so-page .commentlist .comment-body .gallery .gallery-item img,
+body.single-recipe .so-page .so-row .so-page-main .gallery .gallery-item img,
+body.single-recipe .so-page .commentlist .comment-body .gallery .gallery-item img,
+body.page-template-default .so-page .so-row .so-page-main .gallery .gallery-item img,
+body.page-template-default .so-page .commentlist .comment-body .gallery .gallery-item img {
+  width: 100%;
+  margin: auto;
+  border-color: #5A3F2E !important;
+}
+body.single-post .so-page .so-row .so-page-main .gallery .gallery-item .gallery-icon, body.single-post .so-page .commentlist .comment-body .gallery .gallery-item .gallery-icon,
+body.single-recipe .so-page .so-row .so-page-main .gallery .gallery-item .gallery-icon,
+body.single-recipe .so-page .commentlist .comment-body .gallery .gallery-item .gallery-icon,
+body.page-template-default .so-page .so-row .so-page-main .gallery .gallery-item .gallery-icon,
+body.page-template-default .so-page .commentlist .comment-body .gallery .gallery-item .gallery-icon {
+  margin-bottom: 20px;
+}
+body.single-post .so-page .so-row .so-page-main .gallery .gallery-item .gallery-caption, body.single-post .so-page .commentlist .comment-body .gallery .gallery-item .gallery-caption,
+body.single-recipe .so-page .so-row .so-page-main .gallery .gallery-item .gallery-caption,
+body.single-recipe .so-page .commentlist .comment-body .gallery .gallery-item .gallery-caption,
+body.page-template-default .so-page .so-row .so-page-main .gallery .gallery-item .gallery-caption,
+body.page-template-default .so-page .commentlist .comment-body .gallery .gallery-item .gallery-caption {
+  padding-left: 0;
+  padding-top: 0;
+}
+body.single-post .so-page .commentlist .comment-body code,
+body.single-recipe .so-page .commentlist .comment-body code,
+body.page-template-default .so-page .commentlist .comment-body code {
+  background-color: #ece8e4;
+}
+body.single-post .so-page .commentlist .comment-body img,
+body.single-recipe .so-page .commentlist .comment-body img,
+body.page-template-default .so-page .commentlist .comment-body img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+body.single-post .so-page .commentlist .comment-body .comment-author img,
+body.single-recipe .so-page .commentlist .comment-body .comment-author img,
+body.page-template-default .so-page .commentlist .comment-body .comment-author img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+  body.single-post .so-page .so-row-main,
+body.page-template-default .so-page .so-row-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body.single-post .so-page .so-page-sidebar,
+body.page-template-default .so-page .so-page-sidebar {
+    width: 100%;
+    margin-left: 0;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .so-single-nav .so-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .so-single-nav .so-col {
+    width: 100% !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    min-height: 215px;
+    box-sizing: border-box;
+  }
+  .so-single-nav .so-col div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+.woocommerce .quantity .qty {
+  min-width: 120px;
+}
+
+.elementor-section {
+  left: 0 !important;
+}
+
+.woocommerce button.button,
+.woocommerce a.button {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  background-color: #5A3F2E !important;
+  color: #fff !important;
+  font-family: "Open Sans", Poppins;
+  display: inline-block;
+  font-weight: 500;
+  padding: 15px 40px !important;
+}
+.woocommerce button.button:hover, .woocommerce button.button:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus {
+  opacity: 0.7;
+  background-color: #5A3F2E !important;
+  color: #fff !important;
+}
+
+.woocommerce-store-notice, p.demo_store {
+  background-color: #5A3F2E;
+}
+.woocommerce-store-notice a, p.demo_store a {
+  display: inline-block;
+  margin-left: 15px;
+  color: #fff;
+  opacity: 0.8;
+}
+.woocommerce-store-notice a:hover, .woocommerce-store-notice a:focus, p.demo_store a:hover, p.demo_store a:focus {
+  color: #fff;
+  opacity: 1;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+  background: #F6F6F6;
+  background-color: #F6F6F6;
+  border-top-color: #5A3F2E !important;
+}
+.woocommerce-error:before, .woocommerce-info:before, .woocommerce-message:before {
+  color: #5A3F2E !important;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.woocommerce .so-empty-cart {
+  text-align: center;
+}
+.woocommerce .so-empty-cart img {
+  max-width: 300px;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.woocommerce .woocommerce-cart-form {
+  padding-bottom: 100px;
+}
+.woocommerce .woocommerce-cart-form table.shop_table {
+  border-width: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .actions {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-remove {
+  padding-right: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-remove a.remove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  color: #5A3F2E !important;
+  background-color: rgba(90, 63, 46, 0.15);
+  opacity: 1;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-remove a.remove:hover, .woocommerce .woocommerce-cart-form table.shop_table .product-remove a.remove:focus {
+  opacity: 0.7;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-thumbnail {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-thumbnail a {
+  display: inline-block;
+  line-height: 1;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-thumbnail img {
+  width: 70px;
+  opacity: 1;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .product-thumbnail img:hover, .woocommerce .woocommerce-cart-form table.shop_table .product-thumbnail img:focus {
+  opacity: 0.7;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .coupon input {
+  width: auto;
+  padding: 12px 10px !important;
+  box-sizing: border-box;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .coupon input:focus {
+  border-color: #5A3F2E;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #5A3F2E;
+  opacity: 1;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+  position: relative;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button:after {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -5px;
+  content: "";
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button:last-child:before {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: #fff;
+  top: 50%;
+  margin-top: -5px;
+  left: 50%;
+  margin-left: -1px;
+  content: "";
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button:hover, .woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button:focus {
+  opacity: 0.7;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity .wac-qty-button b a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity input {
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 4px 0 3px 0;
+  border-color: #5A3F2E;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity input::-webkit-outer-spin-button,
+.woocommerce .woocommerce-cart-form table.shop_table .quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.woocommerce .woocommerce-cart-form table.shop_table .quantity input[type=number] {
+  -moz-appearance: textfield;
+}
+.woocommerce .cart_totals h2 {
+  padding-bottom: 15px;
+}
+.woocommerce .cart_totals a.button {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .woocommerce .woocommerce-cart-form {
+    padding-bottom: 50px;
+  }
+  .woocommerce .woocommerce-cart-form table.shop_table .quantity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .woocommerce .woocommerce-cart-form {
+    padding-bottom: 30px;
+  }
+  .woocommerce .woocommerce-cart-form .coupon button {
+    float: none !important;
+    width: 100% !important;
+  }
+  .woocommerce .woocommerce-cart-form .coupon input {
+    float: none !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}
+.select2-container--open .select2-dropdown--below {
+  border: 2px solid #5A3F2E;
+  border-radius: 3px;
+}
+.select2-container--open .select2-dropdown--below .select2-search__field {
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected],
+.select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option[data-selected=true] {
+  background-color: #5A3F2E;
+  color: #fff !important;
+}
+
+.woocommerce-order-received .woocommerce address {
+  border-width: 1px !important;
+}
+.woocommerce-order-received .woocommerce .so-checkout-order-done {
+  text-align: center;
+}
+.woocommerce-order-received .woocommerce .so-checkout-order-done img {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.woocommerce-order-received .woocommerce .so-checkout-order-done .woocommerce-notice {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.woocommerce-order-received .woocommerce .so-checkout-order-done .order_details {
+  padding-left: 0;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+.woocommerce-order-received .woocommerce .so-checkout-order-done .so-button {
+  margin: auto;
+  margin-bottom: 60px;
+}
+.woocommerce-order-received .woocommerce h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+.woocommerce-order-received .woocommerce .shop_table thead th {
+  background-color: #F6F6F6;
+}
+
+.woocommerce table {
+  border-spacing: 0;
+}
+.woocommerce .woocommerce-thankyou-order-received {
+  padding-bottom: 25px;
+}
+.woocommerce .order_details {
+  padding-left: 0;
+}
+.woocommerce .checkout_coupon {
+  background: #F6F6F6;
+  border-width: 0 !important;
+  border-radius: 0 !important;
+}
+.woocommerce .checkout_coupon .form-row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.woocommerce .checkout_coupon p {
+  font-size: 14px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+.woocommerce .checkout_coupon input {
+  box-sizing: border-box;
+  padding: 14px 20px;
+}
+.woocommerce .checkout h3 {
+  padding-bottom: 20px;
+}
+.woocommerce .checkout .col2-set {
+  padding-bottom: 40px !important;
+  padding-top: 40px !important;
+}
+.woocommerce .checkout .col2-set #ship-to-different-address input {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+.woocommerce .checkout .col2-set .select2-container--default .select2-selection--single {
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: transparent;
+  border-radius: 5px !important;
+  border: 1px solid rgba(90, 63, 46, 0.3);
+  padding: 10px 25px;
+  height: auto !important;
+  box-sizing: border-box;
+}
+.woocommerce .checkout .col2-set .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 1.2 !important;
+  padding-left: 0 !important;
+  color: #5A3F2E !important;
+}
+.woocommerce .checkout .col2-set .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 50%;
+  margin-top: -11px;
+  right: 10px;
+}
+.woocommerce .checkout .shop_table {
+  margin-bottom: 50px !important;
+}
+.woocommerce .checkout .woocommerce-checkout-payment {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.woocommerce .checkout .woocommerce-checkout-payment .payment_box:before {
+  display: none !important;
+}
+.woocommerce .checkout .woocommerce-checkout-payment p {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+.woocommerce .checkout .woocommerce-checkout-payment .wc-stripe-elements-field {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.woocommerce .checkout .woocommerce-checkout-payment .woocommerce-SavedPaymentMethods {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.woocommerce .checkout .woocommerce-checkout-payment input[type=checkbox], .woocommerce .checkout .woocommerce-checkout-payment input[type=radio] {
+  width: auto;
+  display: inline-block;
+}
+.woocommerce .checkout .woocommerce-checkout-payment .woocommerce-validated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .woocommerce-order-received .woocommerce .so-checkout-order-done img {
+    max-width: 200px;
+  }
+  .woocommerce-order-received .woocommerce .so-checkout-order-done .order_details {
+    margin-bottom: 30px;
+  }
+  .woocommerce-order-received .woocommerce .so-checkout-order-done .order_details li {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: center;
+    display: block;
+    float: none;
+    padding-bottom: 10px;
+    border-right-width: 0;
+  }
+  .woocommerce-order-received .woocommerce .so-checkout-order-done .woocommerce-notice {
+    padding-bottom: 30px;
+  }
+  .woocommerce-order-received .woocommerce .woocommerce-order-details {
+    margin-bottom: 40px;
+  }
+  .woocommerce-order-received .woocommerce .col-1 {
+    margin-bottom: 40px;
+  }
+
+  .woocommerce .checkout .col2-set {
+    padding-top: 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .woocommerce .checkout_coupon .form-row {
+    float: none !important;
+    width: 100% !important;
+  }
+  .woocommerce .checkout_coupon .form-row button {
+    width: 100%;
+  }
+  .woocommerce .woocommerce-checkout .form-row {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .woocommerce .woocommerce-privacy-policy-text {
+    padding-bottom: 15px;
+  }
+  .woocommerce .checkout .col2-set {
+    padding-bottom: 20px !important;
+  }
+}
+.woocommerce-payment-methods .woocommerce .woocommerce-MyAccount-content .woocommerce-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.woocommerce-edit-account .woocommerce .woocommerce-MyAccount-content em {
+  font-size: 12px;
+  line-height: 1.4;
+}
+.woocommerce-edit-account .woocommerce .woocommerce-MyAccount-content fieldset {
+  margin-top: 40px;
+  border-width: 0;
+  background-color: #F6F6F6;
+}
+
+.woocommerce-view-order .woocommerce .woocommerce-MyAccount-content address {
+  border-width: 1px !important;
+}
+.woocommerce-view-order .woocommerce .woocommerce-MyAccount-content h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+.woocommerce-view-order .woocommerce .woocommerce-MyAccount-content > p {
+  padding-bottom: 20px;
+}
+.woocommerce-view-order .woocommerce .woocommerce-MyAccount-content > p mark {
+  background-color: transparent;
+  color: inherit;
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul {
+  padding-left: 0;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li {
+  list-style: none;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: block;
+  padding: 10px 15px;
+  background-color: #F6F6F6;
+  position: relative;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li a:hover, .woocommerce .woocommerce-MyAccount-navigation ul li a:focus {
+  background-color: #dddddd;
+}
+.woocommerce .woocommerce-MyAccount-navigation ul li.is-active a {
+  background-color: #dddddd;
+}
+.woocommerce .woocommerce-MyAccount-content {
+  width: 65%;
+}
+.woocommerce .woocommerce-MyAccount-content table th, .woocommerce .woocommerce-MyAccount-content table td {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.woocommerce .woocommerce-MyAccount-content table th *, .woocommerce .woocommerce-MyAccount-content table td * {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.woocommerce .woocommerce-MyAccount-content table .button {
+  font-size: 12px;
+  line-height: 1;
+  padding: 10px 20px !important;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-info:after {
+  display: none;
+}
+.woocommerce .woocommerce-MyAccount-content p:last-child {
+  padding-top: 15px;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods p {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods .wc-stripe-elements-field {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods input[type=checkbox] {
+  display: inline-block;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods .woocommerce-validated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.woocommerce .woocommerce-MyAccount-content .payment_methods .woocommerce-PaymentMethod input {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  top: 1px;
+  margin-right: 10px !important;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses {
+  padding-top: 30px;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses h3 {
+  font-size: 26px;
+  line-height: 1.2;
+  float: none;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses .edit {
+  font-size: 12px;
+  line-height: 1.2;
+  float: none;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses address {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .woocommerce-view-order .woocommerce .woocommerce-MyAccount-content .col-1 {
+    margin-bottom: 30px;
+  }
+
+  .woocommerce-edit-address .woocommerce address {
+    padding-bottom: 20px;
+    padding-top: 5px !important;
+  }
+
+  .woocommerce .woocommerce-MyAccount-navigation {
+    padding-bottom: 30px;
+  }
+  .woocommerce .woocommerce-MyAccount-content {
+    width: 100%;
+  }
+  .woocommerce .woocommerce-MyAccount-content .woocommerce-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    padding: 15px 20px;
+  }
+  .woocommerce .woocommerce-MyAccount-content .woocommerce-info .button {
+    margin-top: 10px;
+  }
+  .woocommerce .woocommerce-MyAccount-content .woocommerce-info:before {
+    display: none;
+  }
+  .woocommerce .woocommerce-MyAccount-content .payment_methods .form-row {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+body .woocommerce {
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+body .woocommerce .products {
+  padding-top: 25px;
+}
+body .woocommerce .woocommerce-pagination ul {
+  border-width: 0;
+}
+body .woocommerce .woocommerce-pagination ul li {
+  border-width: 0;
+}
+body .woocommerce .woocommerce-pagination ul li a, body .woocommerce .woocommerce-pagination ul li span {
+  margin-right: 10px;
+  display: inline-block;
+}
+body .woocommerce .product {
+  text-align: center;
+}
+body .woocommerce .product img {
+  opacity: 1;
+}
+body .woocommerce .product img:hover, body .woocommerce .product img:focus {
+  opacity: 0.8;
+}
+body .woocommerce .product .onsale {
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: center;
+  color: #fff;
+  margin: 0 !important;
+  min-height: 0;
+  min-width: 0;
+  font-weight: 400;
+  top: 0 !important;
+  right: auto !important;
+  left: 0 !important;
+  z-index: 3;
+  letter-spacing: 1px;
+  background-color: #5A3F2E;
+  pointer-events: none;
+}
+body .woocommerce .product h2 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-bottom: 15px !important;
+}
+body .woocommerce .product .price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px !important;
+  line-height: 1;
+  font-weight: 200 !important;
+  color: #5A3F2E !important;
+}
+body .woocommerce .product .price del {
+  display: inline-block;
+  padding-right: 5px;
+  opacity: 1 !important;
+}
+body .woocommerce .product .price * {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 200;
+  color: #5A3F2E;
+}
+body .woocommerce .product .button {
+  font-size: 14px;
+  line-height: 1;
+  padding: 15px 30px !important;
+}
+body .woocommerce .product .button:after {
+  display: none;
+}
+body .woocommerce .product .added_to_cart {
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 5px;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  body .woocommerce .woocommerce-result-count {
+    display: block;
+    float: none;
+  }
+  body .woocommerce .woocommerce-ordering {
+    float: none;
+  }
+  body .woocommerce .product {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
+}
+body.single-product .related {
+  clear: both;
+}
+body.single-product .summary {
+  text-align: left;
+  padding-top: 40px;
+}
+body.single-product .summary h2 {
+  font-size: 30px;
+}
+body.single-product .summary .price {
+  padding-bottom: 15px;
+}
+body.single-product .summary .stock {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+body.single-product .summary .woocommerce-product-details__short-description * {
+  font-size: 14px;
+}
+body.single-product .summary .woocommerce-product-details__short-description p {
+  font-size: 14px;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+body.single-product .summary .woocommerce-product-details__short-description > * {
+  padding-bottom: 10px;
+}
+body.single-product .summary .woocommerce-product-details__short-description ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+body.single-product .summary .woocommerce-product-details__short-description ol {
+  list-style: decimal;
+  padding-left: 30px;
+}
+body.single-product .summary .woocommerce-product-details__short-description blockquote {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f3eeeb;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-description p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px !important;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-description > * {
+  padding-bottom: 10px;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-description ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-description ol {
+  list-style: decimal;
+  padding-left: 30px;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-description blockquote {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f3eeeb;
+}
+body.single-product .summary .single_variation_wrap .woocommerce-variation-price {
+  padding-bottom: 15px;
+}
+body.single-product .summary .variations {
+  max-width: 400px;
+  margin-bottom: 30px !important;
+  margin-top: 20px;
+}
+body.single-product .summary .variations td.label {
+  padding-bottom: 0 !important;
+  width: 120px;
+  vertical-align: middle !important;
+}
+body.single-product .summary .variations .reset_variations {
+  display: none !important;
+}
+body.single-product .summary .selectric .button {
+  line-height: 38px;
+  padding: 0 !important;
+}
+body.single-product .summary button {
+  font-weight: 700;
+}
+body.single-product .summary .stock {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-bottom: 15px;
+}
+body.single-product .summary .product_meta > span {
+  display: block;
+  padding-bottom: 5px;
+}
+body.single-product .summary .product_meta * {
+  font-size: 14px;
+  line-height: 1.4;
+}
+body.single-product .woocommerce-tabs {
+  padding-top: 80px;
+}
+body.single-product .woocommerce-tabs .tabs {
+  text-align: left;
+}
+body.single-product .woocommerce-tabs .tabs li {
+  border-bottom-width: 0 !important;
+}
+body.single-product .woocommerce-tabs .tabs a {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 200 !important;
+}
+body.single-product .woocommerce-tabs .panel {
+  text-align: left;
+  padding-top: 30px !important;
+}
+body.single-product .woocommerce-tabs .panel > * {
+  padding-bottom: 15px;
+}
+body.single-product .woocommerce-tabs .panel ul {
+  list-style: disc;
+}
+body.single-product .woocommerce-tabs .panel ol {
+  list-style: decimal;
+}
+body.single-product .woocommerce-tabs .panel blockquote {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f3eeeb;
+}
+body.single-product .woocommerce-tabs .panel .woocommerce-product-attributes th {
+  font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+  body.single-product .so-page .so-row-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body.single-product .so-page .so-page-sidebar {
+    width: 100%;
+    margin-left: 0;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body.single-product .so-page {
+    padding-bottom: 0;
+  }
+  body.single-product .woocommerce {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  body.single-product .woocommerce .summary {
+    padding-top: 0;
+  }
+  body.single-product .woocommerce .woocommerce-tabs {
+    padding-top: 0;
+  }
+  body.single-product .woocommerce .woocommerce-tabs .panel {
+    padding-top: 0 !important;
+  }
+  body.single-product .woocommerce .products {
+    padding-top: 0;
+  }
+  body.single-product .woocommerce .products > h2 {
+    padding-bottom: 30px !important;
+  }
+}
+body:not(.elementor-page) .so-blog_archive-results {
+  padding-bottom: 30px;
+}
+body:not(.elementor-page) .so-blog_archive-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body:not(.elementor-page) .so-blog_archive-list .navigation {
+  width: 100%;
+  text-align: center;
+}
+body:not(.elementor-page) .so-blog_archive-list .navigation .screen-reader-text {
+  font-size: 16px;
+}
+body:not(.elementor-page) .so-blog_archive-list .navigation .current {
+  background-color: #ebe9eb;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0.5em;
+  font-weight: 400;
+  line-height: 1;
+  color: #8a7e88;
+  min-width: 1em;
+}
+body:not(.elementor-page) .so-blog_archive-list .navigation a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0.5em;
+  font-weight: 400;
+  line-height: 1;
+  color: #5A3F2E;
+  background-color: transparent;
+  min-width: 1em;
+}
+body:not(.elementor-page) .so-blog_archive-list .navigation a:hover, body:not(.elementor-page) .so-blog_archive-list .navigation a:focus {
+  background-color: #ebe9eb;
+  color: #8a7e88;
+}
+body:not(.elementor-page) .so-blog_archive-single {
+  width: 30%;
+  margin-bottom: 40px;
+}
+body:not(.elementor-page) .so-blog_archive-single:nth-child(3n+1), body:not(.elementor-page) .so-blog_archive-single:nth-child(3n+2) {
+  margin-right: 5%;
+}
+body:not(.elementor-page) .so-blog_archive-single-more {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5A3F2E;
+}
+body:not(.elementor-page) .so-blog_archive-single-more:hover, body:not(.elementor-page) .so-blog_archive-single-more:focus {
+  color: rgba(90, 63, 46, 0.83);
+}
+body:not(.elementor-page) .so-blog_archive-single-title {
+  display: block;
+  margin-bottom: 10px;
+}
+body:not(.elementor-page) .so-blog_archive-single-title h6 {
+  padding-bottom: 0;
+  word-break: break-word;
+}
+body:not(.elementor-page) .so-blog_archive-single p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #5A3F2E;
+  line-height: 1.6;
+}
+body:not(.elementor-page) .so-blog_archive-single-date {
+  font-family: "Poppins", sans-serif;
+  color: #905B2E;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+}
+body:not(.elementor-page) .so-blog_archive-single-image {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+body:not(.elementor-page) .so-blog_archive-single-image:before {
+  position: absolute;
+  width: auto;
+  height: auto;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  content: "";
+}
+body:not(.elementor-page) .so-blog_archive-single-image span {
+  position: absolute;
+  width: auto;
+  height: auto;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+  opacity: 0;
+  z-index: 3;
+}
+body:not(.elementor-page) .so-blog_archive-single-image img {
+  width: 100%;
+  height: 100% !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+body:not(.elementor-page) .so-blog_archive-single-image:hover:before, body:not(.elementor-page) .so-blog_archive-single-image:focus:before {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+body:not(.elementor-page) .so-blog_archive-single-image:hover span, body:not(.elementor-page) .so-blog_archive-single-image:focus span {
+  top: 50%;
+  opacity: 1;
+}
+
+@media screen and (max-width: 991px) {
+  body:not(.elementor-page) .so-blog_archive-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body:not(.elementor-page) .so-blog_archive-single {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  body:not(.elementor-page) .so-blog_archive-single:nth-child(3n+1), body:not(.elementor-page) .so-blog_archive-single:nth-child(3n+2) {
+    margin-right: 0%;
+  }
+  body:not(.elementor-page) .so-blog_archive-single-image {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body:not(.elementor-page).blog .so-row-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  body:not(.elementor-page).blog .so-page-sidebar-right {
+    margin-left: 0;
+    margin-top: 30px;
+    max-width: none;
+    width: 100%;
+  }
+  body:not(.elementor-page).blog .so-page-sidebar-left {
+    margin-right: 0;
+    margin-bottom: 30px;
+    max-width: none;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .so-has-anim-divider .so-shape {
+    bottom: -350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body:not(.elementor-page) .so-intro {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  body:not(.elementor-page) .so-intro-shape {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+    bottom: -200px;
+    z-index: 2;
+  }
+
+  .title-has-line h1, .title-has-line h2, .title-has-line h3, .title-has-line h4, .title-has-line h5, .title-has-line h6 {
+    position: relative;
+  }
+  .title-has-line h1:before, .title-has-line h2:before, .title-has-line h3:before, .title-has-line h4:before, .title-has-line h5:before, .title-has-line h6:before {
+    display: none;
+  }
+
+  .so-shape {
+    bottom: -300px;
+  }
+
+  #so-wrapper {
+    overflow-x: visible;
+  }
+
+  .so-header-mob_slide {
+    display: block;
+    visibility: hidden;
+  }
+  .so-header-mob_slide.active {
+    visibility: visible;
+  }
+  .so-header .so-trigger {
+    display: inline-block;
+  }
+  .so-header-logo {
+    max-width: 140px !important;
+  }
+  .so-header ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .so-header-logo {
+    max-width: 120px !important;
+  }
+
+  body:not(.elementor-page) .so-intro h1 {
+    font-size: 30px;
+  }
+
+  .so-footer .so-row:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .so-footer .so-col {
+    width: 100% !important;
+    max-width: 400px;
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

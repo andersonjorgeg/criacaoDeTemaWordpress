@@ -1,0 +1,61 @@
+.woocommerce .quantity .qty {
+	min-width: 120px;
+}
+
+.elementor-section {
+	left: 0 !important;
+}
+
+.woocommerce {
+
+	button.button,
+	a.button {
+		@include font(16px, 1);
+		letter-spacing: 0.5px;
+		background-color: #5A3F2E !important;
+		color: #fff !important;
+		font-family: "Open Sans", Poppins;
+		display: inline-block;
+		font-weight: 500;
+		padding: 15px 40px !important;
+
+		&:hover, &:focus {
+			opacity: 0.7;
+			background-color: #5A3F2E !important;
+			color: #fff !important;
+		}
+
+	}
+
+}
+
+.woocommerce-store-notice, p.demo_store {
+	background-color: #5A3F2E;
+
+	a {
+		display: inline-block;
+		margin-left: 15px;
+		color: #fff;
+		opacity: 0.8;
+
+		&:hover, &:focus {
+			color: #fff;
+			opacity: 1;
+		}
+
+	}
+
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+	background: #F6F6F6;
+	background-color: #F6F6F6;
+	border-top-color: #5A3F2E !important;
+
+	&:before {
+		color: #5A3F2E !important;
+		top: 50%;
+		margin-top: -9px;
+	}
+
+}
