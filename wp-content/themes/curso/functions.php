@@ -1,5 +1,6 @@
 <?php
 
+// carregando nossos scripts e folhas de estilos
 function load_scripts() {
     wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js', array(), '5.0.0', true );
     wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css', array(), '5.0.0', 'all' );
@@ -7,3 +8,11 @@ function load_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'load_scripts');
+
+//registrando nosso menu
+register_nav_menus(
+    array(
+        'my_main_menu' => 'Main Menu'
+    )
+
+);
