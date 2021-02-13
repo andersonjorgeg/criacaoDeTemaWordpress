@@ -13,7 +13,23 @@ function ap_after_setup() {
 
     //? registrando o local do menu.
     register_nav_menu('primary', __('Primary Menu', 'primeirotema'));
+}
 
+function ap_widgets(){
+    //? registrar sidebar
+    register_sidebar(array(
+        'name' => __('Meu Primeiro Sidebar', 'primeirotema'),
+        'id' => 'ap_sidebar',
+        'description' => __('Sidebar para o tema', 'primeirotema'),
+
+        //? alterar titulo do sidebar
+        'before_title' => '<h4 class="widget_title">',
+        'after_title' => '</h4>',
+
+        //? altera o <li> do sidebar
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>'
+    ));
 }
 
 ?>
