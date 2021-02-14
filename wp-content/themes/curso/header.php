@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <section class="logo col-md-2 col-12 text-center">Logo</section>
-                    <nav class="menu col-md-10 text-end">
+                    <nav class="main-menu col-md-10 text-end">
                         <?php
                         wp_nav_menu(
                             array(
