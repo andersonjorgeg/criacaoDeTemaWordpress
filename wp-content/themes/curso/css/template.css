@@ -10,3 +10,7 @@
     display: inline;
 
 }
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+}
