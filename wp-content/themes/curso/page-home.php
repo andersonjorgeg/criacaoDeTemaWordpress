@@ -14,7 +14,7 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    <aside class="sidebar col-md-4">Barra lateral</aside>
+                    <?php get_sidebar('home'); ?>
                     <div class="news col-md-8">
                         <?php
                         //se houver algum post
@@ -22,13 +22,13 @@
                             //enquanto houver post, mostre-os para gente
                             while (have_posts()) : the_post();
                         ?>
-                        
-                        <p>Conteúdo vindo do arquivo home.php</p>
 
-                        <?php
+                                <p>Conteúdo vindo do arquivo home.php</p>
+
+                            <?php
                             endwhile;
                         else :
-                        ?>
+                            ?>
 
                             <p>Theme's nothing yet to be displayed... </p>
 
