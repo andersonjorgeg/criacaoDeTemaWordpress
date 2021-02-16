@@ -24,10 +24,16 @@ h4{ font-size: 18px; margin-top: 0; }
 
 /* Services */
 .services{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
+.services h1{ text-align: center; color: #fcfae1; text-transform: uppercase; font-size: 28px; }
+.services .widget-wrapper{ text-align: center; }
+.services .widget-wrapper h2{ text-transform: uppercase; font-size: 1.2em; color: #f6e497; font-weight: 200; }
+.services .widget-wrapper:first-child{ padding: 15px 0; }
+.services .widget-wrapper > img{ border: 15px solid #fff }
 
 /* Middle Area */
 .middle-area{ padding: 25px 0 ; }
 .middle-area h1{ color: #4c1b1b; text-transform: uppercase; }
+.middle-area a{ text-decoration: none; }
 
 /* Middle Area - Sidebar */
 .sidebar{ background: #f6e497; padding: 20px; margin: 0 0 30px; }
@@ -50,5 +56,6 @@ footer{ background: #000; padding: 15px 0; color: #fcfae1; }
 .blog article{ display: inline-block; margin: 0 0 30px; width: 100%; }
 .blog article h2{ margin-bottom: 15px; }
 .blog article p > img{ width: 100%; height: auto; }
-.blog .meta-info p{ line-height: 1em; font-weight: bold; }
-.blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; text-decoration: none;}
+.meta-info p{ line-height: 1em; font-weight: bold; }
+.meta-info p > a{ color: #9d9d9d; font-weight: normal; text-decoration: none;}
+.sidebar ul li a{ text-decoration: none; }
