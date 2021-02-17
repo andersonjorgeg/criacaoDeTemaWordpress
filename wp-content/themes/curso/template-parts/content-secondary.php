@@ -13,5 +13,7 @@
             <?php the_tags('Tags: <span>', ', ', '</span>'); ?>
         </p>
     </div>
+
+    <!-- conteúdo resumido do post-->
     <?php the_excerpt(); ?>
 </article>

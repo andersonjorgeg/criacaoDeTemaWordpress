@@ -8,5 +8,7 @@
         <p>Categories: <?php the_category(' '); ?> </p>
         <p><?php the_tags('Tags: ', ', '); ?></p>
     </div>
+
+    <!-- conteúdo completo do post -->
     <?php the_content(); ?>
 </article>

@@ -14,5 +14,7 @@
         </p>
         <p><span><?php echo get_the_date(); ?></span></p>
     </div>
+
+    <!-- conteúdo resumido do post-->
     <?php the_excerpt(); ?>
 </article>
