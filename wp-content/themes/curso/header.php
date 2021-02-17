@@ -14,7 +14,11 @@
             <div class="container">
                 <div class="row">
                     <div class="social-media-icons col-xl-9 col-sm-7 col-6">Ícones Sociais</div>
-                    <div class="search col-xl-3 col-sm-5 col-6 text-end">Pesquisa</div>
+                    <!-- pesquisa -->
+                    <div class="search col-xl-3 col-sm-5 col-6 text-end">
+                        <?php get_search_form(); ?>
+                    </div>
+                    <!-- /pesquisa -->
                 </div>
             </div>
         </section>
