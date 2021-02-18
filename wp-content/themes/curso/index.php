@@ -18,6 +18,19 @@
 
                             <?php
                             endwhile;
+
+                            ?>
+
+                            <div class="row">
+                                <div class="pages text-start col-6">
+                                    <?php previous_posts_link( "<< Newer posts" ); ?>
+                                </div>
+                                <div class="pages text-end col-6">
+                                    <?php next_posts_link( "Older posts >>" ); ?>                               
+                                </div>
+                            </div>
+
+                            <?php
                         else :
                             ?>
 
