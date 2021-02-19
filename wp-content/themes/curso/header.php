@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo( 'charset' ) ?>">
     <meta name="viewport" content="width=device-width">
-    <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
     <header>
         <section class="top-bar">
