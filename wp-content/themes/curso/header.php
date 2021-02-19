@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Curso WordPress</title>
+    <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
 
