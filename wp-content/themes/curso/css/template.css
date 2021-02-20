@@ -20,7 +20,7 @@ h4{ font-size: 18px; margin-top: 0; }
 .main-menu ul li.current-menu-item a{ color: #e58888; }
 
 /* Slider */
-.slide{ padding: 25px 0 ; }
+.wppsac-post-slider.design-2 .wppsac-post-image-bg{ min-height: 600px; }
 
 /* Services */
 .services{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }

@@ -1,0 +1,725 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Responsive Recent Post Slider/Carousel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 11:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.3.4"
+
+#: wp-recent-post-slider.php:136
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: wp-recent-post-slider.php:137
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/wppsac-function.php:93 includes/wppsac-function.php:109
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 1"
+msgstr ""
+
+#: includes/wppsac-function.php:94 assets/js/blocks.build.js:1
+msgid "Design 2"
+msgstr ""
+
+#: includes/wppsac-function.php:95 assets/js/blocks.build.js:1
+msgid "Design 3"
+msgstr ""
+
+#: includes/wppsac-function.php:96 assets/js/blocks.build.js:1
+msgid "Design 4"
+msgstr ""
+
+#: includes/admin/class-wprps-admin.php:41 assets/js/blocks.build.js:1
+msgid "Recent Post Slider"
+msgstr ""
+
+#: includes/admin/class-wprps-admin.php:44
+msgid "Upgrade to PRO - Recent Post Slider"
+msgstr ""
+
+#: includes/admin/class-wprps-admin.php:44
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/class-wprps-admin.php:86
+msgid "Category ID"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:37
+msgid "How It Works - Display and shortcode"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:46
+msgid "Geeting Started with Post Slider"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:50
+msgid "Step-1. This plugin create a menu \"Recent Post Slider\"."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:51
+msgid ""
+"Step-2. This plugin get all the latest POST from WordPress Post section with "
+"a simple shortcode"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:52
+msgid ""
+"Step-3. If you need a <b>Featured Post</b> OR <b>Trending/Popular Post</b> "
+"plugin then try our plugins"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:52
+msgid "Featured Post"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:52
+msgid "Trending/Popular Post"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:60
+msgid "How Shortcode Works"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:64
+msgid "Step-1. Create a page like Latet Post OR add the shortcode in a page."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:65
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:72
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:75
+msgid "Post slider Shortcode. Where you can use 4 designs."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:76
+msgid "Post carousel Shortcode. Where you can use 1 designs."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:90
+msgid "Gutenberg Support"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:98
+msgid "How it Work"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:102
+msgid "Step-1. Go to the Gutenberg editor of your page."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:103
+msgid "Step-2. Search \"recent\" keyword in the gutenberg block list."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:104
+msgid ""
+"Step-3. Add any block of recent and you will find its relative options on "
+"the right end side."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:118
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:126
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:127
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:128
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:142
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:146
+msgid "Enjoyed this plugin? You can help by rate this plugin "
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:146
+msgid "5 stars!"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:159
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:163
+msgid "60+ designs"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:164
+msgid "Recent Post Slider with 25 designs"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:165
+msgid "Recent Post Carousel with 30 designs"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:166
+msgid "Recent gridbox slider with 8 designs"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:167
+msgid "3 Widgets (Post slider, Post List/Slider-1, Post List/Slider-2)"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:168
+msgid "Drag & Drop order change"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:169
+msgid "Custom CSS option"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:170
+msgid "WPBakery Page Builder Supports"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:171
+msgid ""
+"Gutenberg, Elementor, Bevear and SiteOrigin Page Builder Support. <span "
+"class=\"wpos-new-feature\">New</span>"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:172
+msgid ""
+"Divi Page Builder Native Support. <span class=\"wpos-new-feature\">New</span>"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:173
+msgid "WP Templating Features"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:174
+msgid "Slider RTL support"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:175
+msgid "Fully responsive"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:176
+msgid "100% Multi language"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:178
+msgid ""
+"Gain access to <strong>Responsive Recent Post Slider</strong> included in "
+"<br /><strong>Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:179
+msgid "Go Premium "
+msgstr ""
+
+#: includes/admin/wprps-how-it-work.php:180
+msgid "View PRO Demo "
+msgstr ""
+
+#: templates/carousel/design-1.php:31 templates/slider/design-1.php:25
+#: templates/slider/design-2.php:27 templates/slider/design-3.php:33
+#: templates/slider/design-4.php:35
+msgid "By"
+msgstr ""
+
+#: templates/carousel/design-1.php:50 templates/slider/design-1.php:45
+#: templates/slider/design-2.php:46 templates/slider/design-3.php:53
+#: templates/slider/design-4.php:54 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Read More"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "WP Responsive Recent Post Slider - Features"
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:277
+msgid "WPOS Blocks"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display recent post in a slider view with various layouts."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "recent post slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Recent Carousel Slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display recent post in a carousel slider view with various layouts."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "recent carousel slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "True"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "False"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Same Window"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Post Date"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Descending"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Select Lazyload"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Ondemand"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Progressive"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "General Parameters"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Design"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show Date"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show Author"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show Category Name"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show Content"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Content Words limit"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter content word limit."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Content Tail"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display dots after the post content as continue reading. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Premium version "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "to get this option."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Read More Text"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter read more text. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Link Behaviour"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Choose link target behaviour. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Media Size"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Choose WordPress registered image size. e.g thumbnail, medium, large, full."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Image Height"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Control height of the featured image. You can enter any numeric number. e.g "
+"500. Leave empty for default height. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Image Fit"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Fill the post image in a whole container. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Slider Parameters"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Dots"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show pagination dots."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Arrows"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Show prev - next arrows."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Autoplay Interval"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter autoplay interval speed."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Speed"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter slide speed."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Fade"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enable fade effect. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Loop"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enable infinite loop for continuous sliding. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Pause On Hover"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Pause slider autoplay on hover. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Pause On Focus"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Pause slider autoplay when slider element is focused. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Nav Slides"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Enter number of slider navigation column. Note: This parameter default work "
+"with design-17, design-18, design-19, design-20. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Slider Lazyload"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Select option to use lazy loading in slider."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Query Parameters"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Post Type"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Note: Be sure you have added valid post type name otherwise no result will "
+"be displayed."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Enter registered post type name. You can find it on plugin setting page."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Taxonomy"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Note: Be sure you have added valid taxonomy name otherwise no result will be "
+"displayed."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter registered taxonomy name. You can find it on plugin setting page."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Limit"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number of post to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Order By"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Choose option to set order of post by date, title, name etc.. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Order"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Choose option to set post in acesding and descending order. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Specific Category"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"You can pass multiple ids with comma seperated. You can find id at relevant "
+"category listing page."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter category id to display categories wise."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Child Category"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"If you are using parent category then whether to display child category or "
+"not. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Exclude Category"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Exclude post category. Works only if `Category` field is empty. You can pass "
+"multiple ids with comma seperated. You can find id at relevant category "
+"listing page. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Specific Posts"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"You can pass multiple ids with comma seperated. You can find id at relevant "
+"post listing page."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter id of the post which you want to display."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Exclude Post"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter id of the post which you do not want to display."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Include Author"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Enter author id to display posts of particular author. You can pass multiple "
+"ids with comma seperated. You can find id at users listing page. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Exclude Author"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Enter author id to hide post of particular author. Works only if `Include "
+"Author` field is empty. You can pass multiple ids with comma seperated. You "
+"can find id at relevant users listing page. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Sticky Posts"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Display sticky posts or not. Note: sticky posts only be displayed at front "
+"side. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Query Offset"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Exclude number of posts from starting. e.g if you pass 5 then it will skip "
+"first five post. Note: This will not work with limit=-1. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "WP Responsive Recent Post Slider/Carousel - Slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Do you want to check demo of this plugin."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Click here"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Do you also want to check premium version demo of this plugin."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Slide To Show"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number for Slide to show at a time."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Slide To Scroll"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number to scroll slider at a time."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Centermode"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Enable centered view with partial prev/next slides. Use with odd numbered "
+"`Slides to Scroll` and `Slider Column` counts. Upgarade to "
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "WP Responsive Recent Post Slider/Carousel - Carousel Slider"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Responsive Recent Post Slider/Carousel"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Add and display Responsive WordPresss Recent Post Slider and Carousel on "
+"your website with 4 designs (Slider) and 1 designs (Carousel) using a "
+"shortcode. Also added Gutenberg block support."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wponlinesupport.com/plugins/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com/"
+msgstr ""
