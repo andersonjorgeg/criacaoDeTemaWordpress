@@ -2,7 +2,7 @@
 <div class="content-area">
     <main>
         <section class="slide">
-            <?php echo do_shortcode('[recent_post_slider design="design-2" limit="5"]' ); ?>
+            <?php echo do_shortcode('[recent_post_slider design="design-2" limit="5" category="11, 5, 12"]' ); ?>
         </section>
         <section class="services">
             <div class="container">

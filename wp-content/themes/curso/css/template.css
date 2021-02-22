@@ -20,7 +20,8 @@ h4{ font-size: 18px; margin-top: 0; }
 .main-menu ul li.current-menu-item a{ color: #e58888; }
 
 /* Slider */
-.wppsac-post-slider.design-2 .wppsac-post-image-bg{ min-height: 600px; }
+.wppsac-post-slider.design-2 .wppsac-post-image-bg{ min-height: 450px; }
+.wppsac-post-slider.design-2 .wppsac-post-content-left{ display: flex; align-items: center; }
 
 /* Services */
 .services{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
